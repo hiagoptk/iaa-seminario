@@ -1,7 +1,10 @@
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { FaYoutube, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
-import { IoIosMegaphone,IoMdHelp, IoHome } from 'react-icons/io'
+import { IoIosMegaphone,IoMdHelp } from 'react-icons/io'
 import { ImHome2, ImTv, ImUsers, ImWrench } from "react-icons/im";
+
 
 const Navbar = () => {
     return (
@@ -17,13 +20,16 @@ const Navbar = () => {
                     </span>
                 </div>
                 <ul>
-                    <li>Home <ImHome2 className='navIcon' /></li>
-                    <li>Convocatória <IoIosMegaphone className='navIcon'/></li>
-                    <li>FAQ <IoMdHelp className='navIcon'/> </li>
-                    <li>Programação <ImTv className='navIcon'/> </li>
-                    <li>Palestrantes <ImUsers className='navIcon'/></li>
-                    <li>Suporte <ImWrench className='navIcon'/></li>
+                    <li> <a href='/'>HOME <ImHome2 className='navIcon' /> </a></li>
+                    <li> <a href='/convoc'>COMVOCATÓRIA <IoIosMegaphone className='navIcon'/> </a></li>
+                    <li> <a href='/faq'>FAQ <IoMdHelp className='navIcon'/> </a></li>
+                    <li> <a href='/programs'> PROGRAMAÇÃO <ImTv className='navIcon'/>  </a></li>
+                    <li> <a href='/palestrantes'>PALESTRANTES <ImUsers className='navIcon'/> </a></li>
+                    <li> <a href='/help'>SUPORTE <ImWrench className='navIcon'/> </a></li>
                 </ul>
+
+             
+                
             </nav>
     )
 }
