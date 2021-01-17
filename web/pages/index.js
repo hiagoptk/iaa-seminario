@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { IoIosColorPalette } from 'react-icons/io'
 import Navbar from '../components/Navbar';
 
 
@@ -10,8 +11,7 @@ const Home = () => {
 
         <>
              <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
+                <title>Seminário IAA</title>
             </Head>
             
             <Navbar />

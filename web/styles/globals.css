@@ -46,6 +46,10 @@ nav ul {
     list-style: none;
 }
 
+nav ul .navIcon {
+    size: 55px;
+}
+
 #header {
     
     width: 60vw;
@@ -85,7 +89,6 @@ nav ul {
     width: 60vw;
     height: auto;
     background-color: #ffffff18;
-    border: 1px solid black;
     padding: 25px;
     
     display: flex;
@@ -94,6 +97,8 @@ nav ul {
     justify-content: center;
 
     text-align: center;
+
+    
 }
 
 .box p {
@@ -104,7 +109,7 @@ nav ul {
 
 
 #sub {
-    border: black 1px solid;
+    
     width: 25vw;
     height: 10vh;
     padding: 0.9rem;
@@ -122,5 +127,27 @@ nav ul {
     border: none;
     height: 2em;
     padding: 0.25em 1em;
-
 }
+
+@media(max-width: 900px) {
+  
+    #header {
+    
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        padding: 0.9rem 0.05rem;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        font-size: small;
+    }
+    
+    
+  }
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaYoutube, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
-
+import { IoIosMegaphone,IoMdHelp, IoHome } from 'react-icons/io'
+import { ImHome2, ImTv, ImUsers, ImWrench } from "react-icons/im";
 
 const Navbar = () => {
     return (
@@ -16,12 +17,12 @@ const Navbar = () => {
                     </span>
                 </div>
                 <ul>
-                    <li>Home</li>
-                    <li>Convocatória</li>
-                    <li>FAQ</li>
-                    <li>Programação</li>
-                    <li>Palestrantes</li>
-                    <li>Suporte</li>
+                    <li>Home <ImHome2 className='navIcon' /></li>
+                    <li>Convocatória <IoIosMegaphone className='navIcon'/></li>
+                    <li>FAQ <IoMdHelp className='navIcon'/> </li>
+                    <li>Programação <ImTv className='navIcon'/> </li>
+                    <li>Palestrantes <ImUsers className='navIcon'/></li>
+                    <li>Suporte <ImWrench className='navIcon'/></li>
                 </ul>
             </nav>
     )
