@@ -1,0 +1,24 @@
+{
+  "name": "iaa-seminario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiagoptk/iaa-seminario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiagoptk/iaa-seminario/issues"
+  },
+  "homepage": "https://github.com/hiagoptk/iaa-seminario#readme",
+  "dependencies": {
+    "next-app": "^0.0.0",
+    "web": "^0.0.2"
+  }
+}
