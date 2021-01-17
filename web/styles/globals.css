@@ -1,16 +1,126 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffff00;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: green 1px solid;
+}
+
+
+nav {
+    background-color: #ffd000;
+    border-bottom: black solid 1px;
+    color: black;
+    width: 100vw;
+    height: auto;
+    padding-top: 1rem;
+    position: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+} 
+
+nav ul {
+    margin: 0.9rem 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+#header {
+    
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header h5 {
+    font-weight: 500;
+}
+
+#header h5 span {
+    font-size: small;
+    font-weight: 200;
+}
+#header #social {
+    width: 6em;
+    height: 2em;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  
+  border: blue 1px solid;
+}
+
+.box {
+    width: 60vw;
+    height: auto;
+    background-color: #ffffff18;
+    border: 1px solid black;
+    padding: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.box p {
+    font-weight: 300;
+    font-size: medium;
+    padding: 0.5rem;
+}
+
+
+#sub {
+    border: black 1px solid;
+    width: 25vw;
+    height: 10vh;
+    padding: 0.9rem;
+}
+
+#sub h3 {
+    color: red;
+    font-size: medium;
+}
+
+#sub button {
+    background-color: #041870c5;
+    border-radius: 3px;
+    color: #e0e6ff;
+    border: none;
+    height: 2em;
+    padding: 0.25em 1em;
+
 }
