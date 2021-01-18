@@ -26,7 +26,7 @@ const Home = () => {
 
                     <div id='sub'>
                         <h3>Em breve!</h3>
-                        <button> SUBMETER TRABALHO </button>
+                        <button disabled > SUBMETER TRABALHO </button>
                     </div>
                 </div>
               
