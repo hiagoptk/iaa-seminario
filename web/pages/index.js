@@ -21,9 +21,7 @@ const Home = () => {
              
             <div id='main'>
                 <Navbar />
-                <div id='banner'>
-                <Image src='/banner.png' width='auto' height='auto' /> </div>
-                
+                <div id='banner' />                
                 <div className='box' >
                     <p>Imersões: arte e arquitetura é um seminário internacional realizado pela Escola Sem Sítio, em parceria com a Casa França Brasil e os grupos de extensão CURA e Linda, respectivamente vinculados a UERJ e a PUC-Rio, que acontecerá online, com transmissão ao vivo pelo Youtube, entre os dias 2 e 5 de março de 2021. Premiado no edital #RetomadaCulturalRJ da Secretaria de Estado de Cultura e de Economia Criativa do Rio de Janeiro e parte integrante da programação paralela do  27o Congresso Mundial de Arquitetos - UIA 2021 no ano em que o Rio recebe da UNESCO o título de Capital Mundial da Arquitetura, Imersões se faz em uma zona de convergências entre as práticas artísticas, arquitetônicas, urbanísticas e educacionais. </p>
                     
