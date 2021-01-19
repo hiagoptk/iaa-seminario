@@ -7,6 +7,7 @@ import { ImHome2, ImWrench } from "react-icons/im";
 
 const Navbar = () => {
     return (
+        
             <nav>
                 <div id='header'>
                     <h5>Governo Federal, Governo do Estado do Rio de Janeiro, <br /> 
@@ -24,9 +25,6 @@ const Navbar = () => {
                     <li> <a href='/convoc'>PROGRAMAÇÃO </a></li>
                     <li> <a href='/help'>SUPORTE  </a></li>
                 </ul>
-
-             
-                
             </nav>
     )
 }
