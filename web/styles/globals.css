@@ -49,9 +49,9 @@ nav {
 
 nav ul {
     margin: 0.9rem 0;
-    width: 100vw;
+    width: 60vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 
@@ -86,7 +86,7 @@ li a:hover {
 }
 
 #header {
-    border: solid 1px black;
+    
     width: 60vw;
     display: flex;
     justify-content: space-between;
@@ -109,6 +109,14 @@ li a:hover {
     align-items: center;
 }
 
+#banner {
+    padding-top: 150px;
+    border: black 1px solid;
+    width: 100vw;
+    height: 55px;
+    background-image: url('../public/banner.png');
+}
+
 #main {
   width: 100vw;
   height: auto;
@@ -122,7 +130,7 @@ li a:hover {
 }
 
 .box {
-    width: 60vw;
+    width: 65vw;
     height: auto;
     background-color: var(--cor-principal);
     padding: 25px;
