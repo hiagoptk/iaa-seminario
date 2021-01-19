@@ -17,11 +17,12 @@
     padding: 0;
 }
 
+
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 1.2em;
 
-    width: 100vw;
+    width: 98vw;
     height: auto;
     background-color: var(--cor-principal);
     
@@ -29,22 +30,33 @@ body {
     flex-direction: column;
     align-items: center;
     
+    
 }
+
+#main {
+    width: 99vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    justify-content: center;
+    
+  }
 
 
 nav {
     background-color: var(--cor-principal);
     border-bottom: black solid 1px;
     color: black;
-    width: 100vw;
+    width: 99vw;
     height: auto;
     padding-top: 1rem;
-    position: fixed;
+    position: fixed top;
     
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
 } 
 
 nav ul {
@@ -58,14 +70,11 @@ nav ul {
     font-family: 'Bonoci', sans-serif;
 }
 
-nav ul .navIcon {
-    size: 55px;
-}
 
 ul li {
     width: auto;
     height: 2rem;
-    padding: 0 0.3rem;
+    padding: 0 0.2rem;
     
 
     display: flex;
@@ -81,7 +90,7 @@ li a {
 }
 
 li a:hover {
-    font-size: 1.5rem;
+    font-size: 1rem;
 
 }
 
@@ -110,24 +119,17 @@ li a:hover {
 }
 
 #banner {
-    padding-top: 150px;
-    border: black 1px solid;
-    width: 100vw;
-    height: 55px;
-    background-image: url('../public/banner.png');
+    
+    
+    width: 99vw;
+    height: 360px;
+    background-image: url('../public/images/banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;;
+
+    
 }
 
-#main {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  flex-direction: column;  
-  align-items: center;
-  justify-content: center;
-  margin-top: 10rem;
-  
-  
-}
 
 .box {
     width: 65vw;
@@ -209,7 +211,7 @@ li a:hover {
         width: 100vw;
         height: auto;
         padding-top: 1rem;
-        position: fixed;
+        position: fixed top;
         
         display: flex;
         flex-direction: column;
@@ -247,12 +249,22 @@ li a:hover {
 
     }
 
+
+    #banner {
+        
+        border: red 1px solid;
+        width: 100vw;
+        height: auto;
+        background-size: contain;
+    }
+
+
     .box {
         width: 85vw;
         
         background-color:  var(--cor-principal);
         padding: 30px 25px;
-    
+        border: lightseagreen 1px solid;
     
     }
 
