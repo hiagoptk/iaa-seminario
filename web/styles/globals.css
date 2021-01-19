@@ -183,7 +183,10 @@ li a:hover {
 }
 
 @media(max-width: 900px) {
-  
+    
+    body {
+        font-size: 0.9rem;
+    }
     #header {
     
         width: 90vw;
@@ -234,7 +237,7 @@ li a:hover {
     ul li {
         width: auto;
         height: 1rem;
-        padding: 0 0.5rem;
+        padding: 0.9rem 0.5rem 0 0.5rem;
         
     
         display: flex;
@@ -253,9 +256,10 @@ li a:hover {
 
     #banner {
         
-        border: red 1px solid;
+        
         width: 100vw;
-        height: auto;
+        height: 150px;
+        
         background-size: contain;
     }
 
@@ -265,9 +269,16 @@ li a:hover {
         
         background-color:  var(--cor-principal);
         padding: 30px 25px;
-        border: lightseagreen 1px solid;
-    
+        margin-top: -3rem;
+        
+
     }
+
+    .box p, .box span {
+        font-size: 0.85rem;
+    }
+
+
 
     #sub button {
        height: auto;
