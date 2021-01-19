@@ -19,8 +19,9 @@
 
 
 body {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 1.2em;
+    font-family: Helvetica, sans-serif;
+    
+    font-size: 1em;
 
     width: 98vw;
     height: auto;
