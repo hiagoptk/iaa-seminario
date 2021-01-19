@@ -86,8 +86,7 @@ li a:hover {
 }
 
 #header {
-
-    
+    border: solid 1px black;
     width: 60vw;
     display: flex;
     justify-content: space-between;
@@ -177,6 +176,7 @@ li a:hover {
     #header {
     
         width: 90vw;
+        height: 3rem;
         
         display: flex;
         justify-content: space-between;
@@ -199,7 +199,7 @@ li a:hover {
         border-bottom: black solid 1px;
         color: black;
         width: 100vw;
-        height:35vh;
+        height: auto;
         padding-top: 1rem;
         position: fixed;
         
