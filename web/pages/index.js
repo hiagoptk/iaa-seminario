@@ -1,7 +1,10 @@
-import React from 'react'
-import Head from 'next/head'
-import { IoIosColorPalette } from 'react-icons/io'
+import React from 'react';
+import Head from 'next/head';
+import  Link  from 'next/link';
 import Navbar from '../components/Navbar';
+import { IoIosColorPalette } from 'react-icons/io';
+
+
 
 
 const Home = () => {
@@ -12,6 +15,7 @@ const Home = () => {
         <>
              <Head>
                 <title>Seminário IAA</title>
+                
             </Head>
             
             <Navbar />

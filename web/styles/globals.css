@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@font-face {
+    font-family: 'Bonoci';
+    src: url('/public/Bonocì.ttf');
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+}
+
+:root {
+    --cor-principal: rgb(255, 255, 0);
+}
 
 * {
     box-sizing: border-box;
@@ -12,7 +23,7 @@ body {
 
     width: 100vw;
     height: auto;
-    background-color: #ffff00;
+    background-color: var(--cor-principal);
     
     display: flex;
     flex-direction: column;
@@ -22,7 +33,7 @@ body {
 
 
 nav {
-    background-color: #ffd000;
+    background-color: var(--cor-principal);
     border-bottom: black solid 1px;
     color: black;
     width: 100vw;
@@ -43,6 +54,8 @@ nav ul {
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+
+    font-family: 'Bonoci', sans-serif;
 }
 
 nav ul .navIcon {
@@ -68,11 +81,12 @@ li a {
 }
 
 li a:hover {
-    background-color: #ffbb00;
+    font-size: 1.5rem;
 
 }
 
 #header {
+
     
     width: 60vw;
     display: flex;
@@ -111,7 +125,7 @@ li a:hover {
 .box {
     width: 60vw;
     height: auto;
-    background-color: #ffffff18;
+    background-color: var(--cor-principal);
     padding: 25px;
     margin-bottom: 1rem;
     border-radius: 0.45rem;
@@ -138,7 +152,6 @@ li a:hover {
     width: 25vw;
     height: 10vh;
     padding: 0.9rem;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,8 +177,37 @@ li a:hover {
     #header {
     
         width: 90vw;
+        
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+
+
+    #header #social {
+        width: 2em;
+        height: 6em;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        background-color: var(--cor-principal);
+        border-bottom: black solid 1px;
+        color: black;
+        width: 100vw;
+        height:35vh;
+        padding-top: 1rem;
+        position: fixed;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    
     }
 
     nav ul {
@@ -192,10 +234,15 @@ li a:hover {
     }    
 
 
+    li a:hover {
+        font-size: 0.5rem;
+
+    }
+
     .box {
         width: 85vw;
         
-        background-color: #ff73002d;
+        background-color:  var(--cor-principal);
         padding: 30px 25px;
     
     
