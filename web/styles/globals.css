@@ -130,7 +130,7 @@ li a:hover {
     
     
     width: 99vw;
-    height: auto;
+    height: 350px;
     background-image: url('../public/images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;;
