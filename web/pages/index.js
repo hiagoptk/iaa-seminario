@@ -32,10 +32,6 @@ const Home = () => {
                     
                     <p>Confira a programação completa aqui. A partir do dia x estarão abertas as inscrições para submissão de trabalhos em vídeo que poderão ser exibidos durante as mesas de debate. A inscrição para assistir às mesas terá início no dia x.</p>
 
-                    <div id='sub'>
-                        <h3>Em breve!</h3>
-                        <button disabled > SUBMETER TRABALHO </button>
-                    </div>
                 </div>
               
             </div>
