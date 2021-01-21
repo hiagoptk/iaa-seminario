@@ -10,9 +10,12 @@ const Navbar = () => {
         
             <nav>
                 <div id='header'>
-                    <h5>Governo Federal, Governo do Estado do Rio de Janeiro, <br /> 
-                        Secretaria de Cultura e Economia Criativa do Rio de Janeiro, <br /> 
-                        por meio da Lei Aldir Blanc e Casa França <span>apresentam</span> </h5>
+                    <div className='boxHeader'>
+                        <h5><b>Governo Federal, Governo do Estado do Rio de Janeiro,  
+                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, <br /> 
+                            por meio da Lei Aldir Blanc</b> e <b>Casa França</b> <span>apresentam</span>
+                        </h5>
+                    </div>
                     <span id='social'>                        
                         <FaFacebookSquare />
                         <FaInstagram />
@@ -21,9 +24,14 @@ const Navbar = () => {
                 </div>
                 <ul>
                     <li> <a href='/'>HOME </a></li>
-                    <li> <a href='/convoc'>CONVOCATÓRIA <IoIosMegaphone className='navIcon'/> </a></li>
+                    <li> * </li>
+                    <li> <a href='/convoc'>CONVOCATÓRIA</a></li>
+                    <li> * </li>
                     <li> <a href='/convoc'>PROGRAMAÇÃO </a></li>
-                    <li> <a href='/help'>SUPORTE  </a></li>
+                    <li> * </li>
+                    <li> <a href='/convoc'>PALESTRANTES </a></li>
+                    <li> * </li>
+                    <li> <a href='/convoc'>CONTATO  </a></li>
                 </ul>
             </nav>
     )
