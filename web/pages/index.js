@@ -16,7 +16,7 @@ const Home = () => {
 
         <>
             <Head>
-              <title>Seminário IAA</title>
+              <title>Seminário Imersões</title>
               
             </Head>
              
