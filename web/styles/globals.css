@@ -94,7 +94,7 @@ li a {
 }
 
 li a:hover {
-    font-size: 1rem;
+    color: red;
 
 }
 
@@ -135,6 +135,12 @@ li a:hover {
     color: black;
 }
 
+#header #social a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+
 
 #banner {
     
@@ -173,22 +179,6 @@ li a:hover {
     padding: 0.5rem;
 }
 
-
-#sub {
-    
-    width: 25vw;
-    height: 10vh;
-    padding: 0.9rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#sub h3 {
-    color: red;
-    font-size: medium;
-}
 
 #sub button {
     background-color: #041870c5;
