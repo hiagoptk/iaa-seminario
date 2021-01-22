@@ -17,9 +17,9 @@ const Navbar = () => {
                         </h5>
                     </div>
                     <span id='social'>                        
-                        <FaFacebookSquare />
-                        <FaInstagram />
-                        <FaYoutube />
+                        <a href='https://www.facebook.com/seminarioimersoes'><FaFacebookSquare /></a>
+                        <a href='https://www.instagram.com/seminarioimersoes/'><FaInstagram /></a>
+                        <a href='https://www.youtube.com/channel/UCQzNqcPI1z1MJzjXdalWqfw'><FaYoutube /></a>
                     </span>
                 </div>
                 <ul>
