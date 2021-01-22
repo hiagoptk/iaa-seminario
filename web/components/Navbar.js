@@ -12,7 +12,7 @@ const Navbar = () => {
                 <div id='header'>
                     <div className='boxHeader'>
                         <h5><b>Governo Federal, Governo do Estado do Rio de Janeiro,  
-                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, <br /> 
+                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, 
                             por meio da Lei Aldir Blanc</b> e <b>Casa França</b> <span>apresentam</span>
                         </h5>
                     </div>
