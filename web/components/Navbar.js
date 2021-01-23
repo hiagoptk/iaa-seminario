@@ -1,9 +1,5 @@
 import React from 'react';
 import { FaYoutube, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
-import { IoIosMegaphone } from 'react-icons/io'
-import { IoTvOutline } from 'react-icons/io5'
-import { ImHome2, ImWrench } from "react-icons/im";
-
 
 const Navbar = () => {
     return (
