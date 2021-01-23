@@ -10,8 +10,7 @@ function Banner() {
         alt='Imersões * Arte e Arquitetura'
         width={3498}
         height={904}
-        layout='intrinsic'
-        
+        layout='responsive'
         />
     );
 }

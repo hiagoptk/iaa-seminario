@@ -1,9 +1,5 @@
 import React from 'react';
 import { FaYoutube, FaInstagram, FaFacebookSquare } from 'react-icons/fa'
-import { IoIosMegaphone } from 'react-icons/io'
-import { IoTvOutline } from 'react-icons/io5'
-import { ImHome2, ImWrench } from "react-icons/im";
-
 
 const Navbar = () => {
     return (
@@ -12,14 +8,14 @@ const Navbar = () => {
                 <div id='header'>
                     <div className='boxHeader'>
                         <h5><b>Governo Federal, Governo do Estado do Rio de Janeiro,  
-                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, <br /> 
+                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, 
                             por meio da Lei Aldir Blanc</b> e <b>Casa França</b> <span>apresentam</span>
                         </h5>
                     </div>
                     <span id='social'>                        
-                        <FaFacebookSquare />
-                        <FaInstagram />
-                        <FaYoutube />
+                        <a href='https://www.facebook.com/seminarioimersoes'><FaFacebookSquare /></a>
+                        <a href='https://www.instagram.com/seminarioimersoes/'><FaInstagram /></a>
+                        <a href='https://www.youtube.com/channel/UCQzNqcPI1z1MJzjXdalWqfw'><FaYoutube /></a>
                     </span>
                 </div>
                 <ul>

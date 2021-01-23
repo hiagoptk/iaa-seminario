@@ -26,7 +26,7 @@ const Home = () => {
             <div id='main'>
                 
                 <div id='banner' >
-                    <h1> BANNER </h1>
+                    
                     <Banner />
                 </div>                
                 <div className='box' >
