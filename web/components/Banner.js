@@ -8,8 +8,8 @@ function Banner() {
         <Image 
         src='/images/banner.png'
         alt='Imersões * Arte e Arquitetura'
-        width={3498}
-        height={904}
+        width={1749}
+        height={452}
         layout='responsive'
         />
     );

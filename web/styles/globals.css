@@ -72,7 +72,7 @@ body {
 
 nav ul {
     padding: 0.6rem 0.3rem;
-    width: 60vw;
+    width: 55vw;
     max-width: 2000px;
 
     display: flex;
@@ -97,6 +97,11 @@ nav ul li {
     
 }
 
+nav ul li p {
+    font-family: 'Bonoci';
+    font-size: 1.2rem;
+}
+
 nav ul li a {
     font-size: 1.2rem;
     text-decoration: none;
@@ -112,10 +117,11 @@ nav ul li a:hover {
 
 #header {
     max-width: 2000px;
-    width: 60vw;
+    width: 55vw;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
     
 }
@@ -161,7 +167,7 @@ nav ul li a:hover {
  .box {
     max-width: 2000px;
     min-width: 80px;
-    width: 60vw;
+    width: 55vw;
     height: auto;
     
     
@@ -202,7 +208,7 @@ nav ul li a:hover {
     }
     #header {
     
-        width: 90vw;
+        width: 95vw;
         height: 3rem;
         
         display: flex;
@@ -215,10 +221,11 @@ nav ul li a:hover {
         width: 2em;
         height: 6em;
         
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     nav {
@@ -268,14 +275,10 @@ nav ul li a:hover {
 
 
     #banner {
-        
-        
-        width: 100vw;
-        height: 150px;
-        
-        background-size: contain;
-    }
+        width: auto;
+        height: auto;
 
+    }
 
     .box {
         width: 85vw;
@@ -283,8 +286,6 @@ nav ul li a:hover {
         background-color:  var(--cor-principal);
         padding: 30px 25px;
         margin-top: -3rem;
-        
-
     }
 
     .box p, .box span {

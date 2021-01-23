@@ -20,13 +20,13 @@ const Navbar = () => {
                 </div>
                 <ul>
                     <li> <a href='/'>HOME </a></li>
-                    <li> * </li>
+                    <li> <p>*</p> </li>
                     <li> <a href='/convoc'>CONVOCATÓRIA</a></li>
-                    <li> * </li>
+                    <li> <p>*</p> </li>
                     <li> <a href='/convoc'>PROGRAMAÇÃO </a></li>
-                    <li> * </li>
+                    <li> <p>*</p> </li>
                     <li> <a href='/convoc'>PALESTRANTES </a></li>
-                    <li> * </li>
+                    <li> <p>*</p> </li>
                     <li> <a href='/convoc'>CONTATO  </a></li>
                 </ul>
             </nav>
