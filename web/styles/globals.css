@@ -131,16 +131,6 @@ nav ul li a:hover {
     height: auto;
  }
 
- #header #social {
-    width: 10vw;
-    height: auto;
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;   
-}
-
-
 #header h5 {
     font-weight: 500;
 }
@@ -150,14 +140,36 @@ nav ul li a:hover {
     font-weight: 200;
 }
 
+ #header #social {
+    width: 8vw;
+    height: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+#header #social #igBold {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+
+#header #social #ytBold {
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
 
 #header #social a {
+    font-size: 1.1rem;
     text-decoration: none;
     color: black;
 }
 
 #header #social a:hover {
     text-decoration: none;
+    font-size: 1.1rem;
     color: var(--cor-link)
 
 }
