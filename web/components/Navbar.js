@@ -7,9 +7,10 @@ const Navbar = () => {
             <nav>
                 <div id='header'>
                     <div className='boxHeader'>
-                        <h5><b>Governo Federal, Governo do Estado do Rio de Janeiro,  
-                            Secretaria de Cultura e Economia Criativa do Rio de Janeiro, 
-                            por meio da Lei Aldir Blanc</b> e <b>Casa França-Brasil</b> <span>apresentam</span>
+                        <h5>
+                            <b>Casa França-Brasil, Governo Federal, Governo do Estado do Rio de Janeiro, 
+                            Secretaria de Estado de Cultura e Economia Criativa do Rio de Janeiro, 
+                            através da Lei Aldir Blanc</b> <span>apresentam</span>
                         </h5>
                     </div>
                     <span id='social'>                        
