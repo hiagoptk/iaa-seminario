@@ -240,6 +240,10 @@ nav ul li a:hover {
         font-size: 0.7rem;
     }
 
+    #header .boxHeader span {
+        font-size: smaller;
+    }
+
 
     #header #social {
         width: 5vw;
