@@ -30,28 +30,34 @@ const Home = () => {
                     <Banner />
                 </div>                
                 <div className='box' >
-                    <p>     Imersões: arte e arquitetura é um seminário internacional 
-                        realizado pela Escola Sem Sítio, em parceria com a 
-                        Casa França Brasil e os grupos de extensão CURA e Linda, 
-                        respectivamente vinculados a UERJ e a PUC-Rio, que acontecerá online, 
-                        com transmissão ao vivo pelo Youtube, entre os dias 2 e 5 de março de 2021. 
-                        Premiado no edital #RetomadaCulturalRJ da Secretaria de Estado de Cultura e de 
-                        Economia Criativa do Rio de Janeiro e parte integrante da programação paralela 
-                        do  27o Congresso Mundial de Arquitetos - UIA 2021 no ano em que o Rio recebe 
-                        da UNESCO o título de Capital Mundial da Arquitetura, Imersões se faz em uma 
-                        zona de convergências entre as práticas artísticas, arquitetônicas, urbanísticas e educacionais.` </p>
+                    <p> “Imersões: arte e arquitetura” é um seminário internacional on-line que propõe uma 
+                        reflexão sobre os papéis da arquitetura e urbanismo na contemporaneidade e sua 
+                        intercessão e interface com a arte. Com transmissão ao vivo pela Internet entre os 
+                        dias 2 e 5 de março de 2021, seu ciclo de debates promoverá reflexões que transitam 
+                        nesses campos do saber, promovendo sua difusão, ao mesmo tempo em que tornam a 
+                        arte contemporânea e a arquitetura responsáveis por mais compromissos sociais. </p>
                     
-                    <p>    Seu ciclo de debates promoverá reflexões que transitam nesses campos do saber, 
-                        promovendo sua difusão, ao mesmo tempo em que tornam a arte contemporânea e a 
-                        arquitetura responsáveis por mais compromissos sociais. Como pensar as relações 
-                        entre arte, arquitetura, a humanidade e a habitação social? A quem a arquitetura 
-                        se destina? A quem, de fato, atende? Quais questões permeiam e afetam, sobretudo, 
-                        a vida urbana? Que questionamentos podem ser trazidos para esse campo? O que se vislumbra? </p>
+                    <p> Os eixos centrais de “Imersões” – Arte e arquitetura, Habitação social e Arquitetura 
+                        e alteridades – procuram ampliar a discussão que se apresenta urgente e desdobra, no 
+                        ano em que o Rio recebe da UNESCO o título de Capital Mundial da Arquitetura, o mote 
+                        anunciado pelo 27o Congresso Mundial de Arquitetos – UIA 2021: Todos os mundos. Um só 
+                        mundo.</p>
                     
-                    <p>     Confira a programação completa aqui. A partir do dia x estarão abertas as inscrições 
-                        para submissão de trabalhos em vídeo que poderão ser exibidos durante as mesas de debate. 
-                        A inscrição para assistir às mesas terá início no dia x.</p>
+                    <p> Os palestrantes trarão experiências que abordem a configuração do espaço urbano como 
+                        oportunidade de contato e exercício cotidiano da cidade e da arte, discutindo 
+                        transitoriedade, fluxos e outras formas de viver. Como pensar as relações entre arte, 
+                        rquitetura, a humanidade e a habitação social? A quem a arquitetura se destina? A quem, 
+                        de fato, atende? Quais questões permeiam e afetam, sobretudo, a vida urbana? Que 
+                        questionamentos podem ser trazidos para esse campo? O que se vislumbra? </p>
 
+                    <p> Premiado no edital #RetomadaCulturalRJ da Secretaria de Estado de Cultura e de 
+                        Economia Criativa do Rio de Janeiro e parte integrante do calendário oficial de eventos 
+                        culturais do UIA 2021, “Imersões” é uma realização em parceria da Escola Sem Sítio, 
+                        Casa França-Brasil e dos grupos de extensão e pesquisa CURA/UERJ e Linda/PUC-Rio.</p>
+
+                    <p> A partir do dia 25 de janeiro estarão abertas as inscrições para submissão de trabalhos 
+                        em vídeo que poderão ser exibidos durante as mesas de debate. A inscrição para assistir 
+                        às mesas será aberta em breve. </p>
                 </div>
               
             </div>
