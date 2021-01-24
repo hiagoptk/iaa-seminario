@@ -1,10 +1,7 @@
 @font-face {
     font-family: 'Bonoci';
     src: local('Bonoci'), url(../public/fonts/Bonocì.ttf) format('truetype');
-  }
+  
 
-@font-face {
-  font-family: 'Helvetica Condensed';
-  src: local('Helvetica Condensed'), url(../public/fonts/helvetica-condensed.ttf) format('truetype');
 
 }

@@ -201,7 +201,7 @@ nav ul li a:hover {
 
 
 
-@media(max-width: 768px) {
+@media(max-width: 1000px) {
     
     body {
         font-size: 0.9rem;
