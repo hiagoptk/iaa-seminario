@@ -3,32 +3,29 @@ import Head from 'next/head';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar';
-import { IoIosColorPalette } from 'react-icons/io';
-
-
-
+import HomeImg from '../components/HomeImg'
+import BannerMobile from '../components/BannerMobile';
 
 
 const Home = () => {
     return (
-
-        
-
         <>
             <Head>
-              <title>Seminário Imersões</title>
-              
+              <title>Seminário Imersões</title>             
             </Head>
 
             <Navbar />
 
-
             <div id='main'>
                 
-                <div id='banner' >
-                    
+                <div className='boxBannerDesktop' >
                     <Banner />
-                </div>                
+                </div> 
+                
+                <div className='boxBannerMobile' >
+                    <BannerMobile />               
+                </div> 
+
                 <div className='box' >
                     <p> <b>Imersões: arte e arquitetura</b> é um seminário internacional on-line que propõe uma 
                         reflexão sobre os papéis da arquitetura e urbanismo na contemporaneidade e sua 
@@ -40,8 +37,8 @@ const Home = () => {
                     <p> Os eixos centrais de <b>Imersões</b> – Arte e arquitetura, Habitação social e Arquitetura 
                         e alteridades – procuram ampliar a discussão que se apresenta urgente e desdobra, no 
                         ano em que o Rio recebe da UNESCO o título de Capital Mundial da Arquitetura, o mote 
-                        anunciado pelo 27o Congresso Mundial de Arquitetos – UIA 2021: <i>Todos os mundos</i>. <b>Um só 
-                        mundo</b>.</p>
+                        anunciado pelo 27o Congresso Mundial de Arquitetos – UIA 2021: <i>Todos os mundos. <b>Um só 
+                        mundo</b></i>.</p>
                     
                     <p> Os palestrantes trarão experiências que abordem a configuração do espaço urbano como 
                         oportunidade de contato e exercício cotidiano da cidade e da arte, discutindo 
@@ -58,6 +55,10 @@ const Home = () => {
                     <p> A partir do <b>dia 25 de janeiro</b> estarão abertas as inscrições para submissão de trabalhos 
                         em vídeo que poderão ser exibidos durante as mesas de debate. <b>A inscrição para assistir 
                         às mesas será aberta em breve.</b></p>
+
+                    <div className='boxImg'>
+                        <HomeImg  id='homeImg' />
+                    </div>
                 </div>
               
             </div>

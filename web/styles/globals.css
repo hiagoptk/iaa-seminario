@@ -42,20 +42,25 @@ body {
     align-self: center;
     align-items: center;
     justify-content: center;
-    
-
-    
 }
 
 
-#banner {
+.boxBannerDesktop  {
     max-width: 3498px;
     min-width:  349.8px;
     max-height: 904px;
     width: 100%;
-
- 
+    display: block;
 }
+
+.boxBannerMobile {
+    max-width: 1173px;
+    min-width:  117px;
+    max-height: 341px;
+    width: 100%;
+    display: none;
+}
+
 
   /* CABEÇALHO */
   nav {
@@ -127,7 +132,8 @@ nav ul li a:hover {
 }
 
 #header .boxHeader {
-    width: 50vw;
+    
+    width: 55vw;
     height: auto;
  }
 
@@ -198,6 +204,14 @@ nav ul li a:hover {
     padding: 0.5rem;
 }
 
+.boxImg {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 60vw;
+    height: auto;
+}
+
+/*   ------------ ~ sz ~ FOOTER DO SITE ~ sz ~ ------------   */
 
 #footer {
     width: 100vw;
@@ -231,11 +245,18 @@ nav ul li a:hover {
     }
 
 
-    #banner {
+    .boxBannerDesktop  {
         width: 100vw;
         height: auto;
         overflow: hidden;
-        
+        display: none;
+    }
+
+    .boxBannerMobile {
+        width: 100vw;
+        height: auto;
+        overflow: hidden;
+        display: block;
     }
 
 
@@ -253,6 +274,7 @@ nav ul li a:hover {
 
     #header .boxHeader {
         width: 75vw;
+        padding-left: 10px;
         font-size: 0.7rem;
     }
 
@@ -294,6 +316,7 @@ nav ul li a:hover {
         width: 100vw;
         height: auto;
         padding-top: 1rem;
+        padding-left: 10px;
         position: fixed top;
         
         display: flex;
@@ -339,17 +362,20 @@ nav ul li a:hover {
     }
 
     .box {
-        width: 90vw;
-        
+        width: 90vw;   
         padding: 15px 10px;
-        
-
-    }
+     }
 
     .box p {
         font-size: 0.85rem;
     }
 
+
+    .boxImg {
+        min-width: 80px;
+        width: 90vw;
+        height: auto;
+    }
 
     #footer {
         width: 100vw;        
@@ -366,8 +392,8 @@ nav ul li a:hover {
         min-width: 80px;
         width: 90vw;
         height: auto;
-
     }
+
 
     
 }
