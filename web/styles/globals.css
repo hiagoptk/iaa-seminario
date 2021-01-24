@@ -199,7 +199,23 @@ nav ul li a:hover {
 }
 
 
+#footer {
+    width: 100vw;
+    background-color: white;
+    position: fixed bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+#footer div {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 55vw;
+    height: auto;
+
+}
 
 @media(max-width: 1000px) {
     
@@ -332,6 +348,25 @@ nav ul li a:hover {
 
     .box p {
         font-size: 0.85rem;
+    }
+
+
+    #footer {
+        width: 100vw;        
+        background-color: white;
+        position: fixed bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #footer div {
+        max-width: 2000px;
+        min-width: 80px;
+        width: 90vw;
+        height: auto;
+
     }
 
     
