@@ -13,7 +13,7 @@ const Navbar = () => {
                         </h5>
                     </div>
                     <span id='social'>                        
-                        <a href='https://www.facebook.com/seminarioimersoes'><FaFacebookSquare /></a>
+                        <a href='https://www.facebook.com/seminarioimersoes' id='fbBold'><FaFacebookSquare /></a>
                         <a href='https://www.instagram.com/seminarioimersoes/' id='igBold'><FaInstagram /></a>
                         <a href='https://www.youtube.com/channel/UCQzNqcPI1z1MJzjXdalWqfw'id='ytBold'><FaYoutubeSquare /></a>
                     </span>
