@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Banner from '../components/Banner';
-import Link  from 'next/link';
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar';
 import { IoIosColorPalette } from 'react-icons/io';
 
@@ -60,6 +60,10 @@ const Home = () => {
                         às mesas será aberta em breve.</b></p>
                 </div>
               
+            </div>
+
+            <div id='footer'>
+                <Footer />
             </div>
         </>
 
