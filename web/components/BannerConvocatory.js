@@ -7,7 +7,7 @@ function BannerConvocatory() {
     return (
         <Image 
         src='/images/bannerConvoc.png'
-        alt='Imersões * Arte e Arquitetura'
+        alt='Imersões * Convocatória'
         width={1873}
         height={331}
         layout='responsive'
