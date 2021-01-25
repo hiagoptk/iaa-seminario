@@ -10,6 +10,7 @@
 :root {
     --cor-principal: rgb(255, 255, 0);
     --cor-link: rgb(210, 35, 42);
+    --cor-button: rgb(37, 64, 143);
 }
 
 * {
@@ -218,6 +219,31 @@ nav ul li a:hover {
     height: auto;
 }
 
+
+/*   ------------ ~ sz ~ CONVOCATÓRIA ~ sz ~ ------------   */
+
+#buttonBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 55vw;
+    padding: 0.5rem;
+    margin: 10px 0;
+
+}
+
+#buttonBox .button {
+    width: 13rem;
+    height: 2rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-style: none;
+    border-radius: 3px;
+    background-color: var(--cor-button);
+}
+
 /*   ------------ ~ sz ~ FOOTER DO SITE ~ sz ~ ------------   */
 
 #footer {
@@ -313,7 +339,6 @@ nav ul li a:hover {
     }
 
     #header #social #fbBold {
-        
         font-size: 1rem;
     }
 
@@ -368,6 +393,7 @@ nav ul li a:hover {
         color: var(--cor-link)
     }
 
+    /* HOME */
     .box {
         width: 90vw;   
         padding: 15px 10px;
@@ -382,6 +408,21 @@ nav ul li a:hover {
         min-width: 80px;
         width: 90vw;
         height: auto;
+    }
+
+    /*   ------------ ~ sz ~ CONVOCATÓRIA ~ sz ~ ------------   */
+
+    #buttonBox {
+        width: 90vw;
+        padding: 0.5rem;
+        margin-top: 10px;
+
+        border: springgreen 1px solid;
+    }
+
+    #buttonBox .button {
+        width: 6rem;
+        height: 2rem;
     }
 
     #footer {

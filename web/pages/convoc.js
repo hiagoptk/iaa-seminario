@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar';
 import BannerMobile from '../components/BannerMobile';
 import BannerConvocatory from '../components/BannerConvocatory';
+import Button from '../components/Button';
+import Footer from '../components/Footer';
 
 
 const Convocatory = () => {
@@ -36,10 +38,14 @@ const Convocatory = () => {
 
 
                     <div id='buttonBox'>
-                        
+                        <Button />
                     </div>
                 </div>
               
+            </div>
+
+            <div id='footer'>
+                <Footer />
             </div>
         </>
 
