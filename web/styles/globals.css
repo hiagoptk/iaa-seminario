@@ -34,7 +34,7 @@ body {
     
 }
 
-#main {
+.main {
     width: 100vw;
     height: auto;
     display: flex;
@@ -61,6 +61,13 @@ body {
     display: none;
 }
 
+.boxBannerConvoc {
+    max-width: 1173px;
+    min-width:  117px;
+    max-height: 341px;
+    width: 100%;
+    display: block;
+}
 
   /* CABEÇALHO */
   nav {
@@ -240,7 +247,7 @@ nav ul li a:hover {
         justify-content: center;    
     }
 
-    #main {
+    .main {
         margin-top: 25px;
     }
 

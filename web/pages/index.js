@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Banner from '../components/Banner';
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar';
 import HomeImg from '../components/HomeImg'
+import Banner from '../components/Banner';
 import BannerMobile from '../components/BannerMobile';
 
 
@@ -16,7 +16,7 @@ const Home = () => {
 
             <Navbar />
 
-            <div id='main'>
+            <div className='main'>
                 
                 <div className='boxBannerDesktop' >
                     <Banner />
