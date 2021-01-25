@@ -2,17 +2,17 @@ import React from 'react';
 import Image from 'next/image'
 
 
-function Banner() {
+function Footer() {
     
     return (
         <Image 
-        src='/images/banner.png'
+        src='/images/barraLogos.jpg'
         alt='Imersões * Arte e Arquitetura'
-        width={1749}
-        height={452}
+        width={416}
+        height={83}
         layout='responsive'
         />
     );
 }
 
-export default Banner;
+export default Footer;

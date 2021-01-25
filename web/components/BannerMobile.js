@@ -2,17 +2,17 @@ import React from 'react';
 import Image from 'next/image'
 
 
-function Banner() {
+function BannerMobile() {
     
     return (
         <Image 
-        src='/images/banner.png'
+        src='/images/bannerMobile.png'
         alt='Imersões * Arte e Arquitetura'
-        width={1749}
-        height={452}
+        width={1173}
+        height={441}
         layout='responsive'
         />
     );
 }
 
-export default Banner;
+export default BannerMobile;

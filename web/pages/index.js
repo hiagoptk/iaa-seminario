@@ -1,47 +1,44 @@
 import React from 'react';
 import Head from 'next/head';
 import Banner from '../components/Banner';
-import Link  from 'next/link';
+import Footer from '../components/Footer'
 import Navbar from '../components/Navbar';
-import { IoIosColorPalette } from 'react-icons/io';
-
-
-
+import HomeImg from '../components/HomeImg'
+import BannerMobile from '../components/BannerMobile';
 
 
 const Home = () => {
     return (
-
-        
-
         <>
             <Head>
-              <title>Seminário Imersões</title>
-              
+              <title>Seminário Imersões</title>             
             </Head>
 
             <Navbar />
 
-
             <div id='main'>
                 
-                <div id='banner' >
-                    
+                <div className='boxBannerDesktop' >
                     <Banner />
-                </div>                
+                </div> 
+                
+                <div className='boxBannerMobile' >
+                    <BannerMobile />               
+                </div> 
+
                 <div className='box' >
-                    <p> “Imersões: arte e arquitetura” é um seminário internacional on-line que propõe uma 
+                    <p> <b>Imersões: arte e arquitetura</b> é um seminário internacional on-line que propõe uma 
                         reflexão sobre os papéis da arquitetura e urbanismo na contemporaneidade e sua 
                         intercessão e interface com a arte. Com transmissão ao vivo pela Internet entre os 
                         dias 2 e 5 de março de 2021, seu ciclo de debates promoverá reflexões que transitam 
                         nesses campos do saber, promovendo sua difusão, ao mesmo tempo em que tornam a 
                         arte contemporânea e a arquitetura responsáveis por mais compromissos sociais. </p>
                     
-                    <p> Os eixos centrais de “Imersões” – Arte e arquitetura, Habitação social e Arquitetura 
+                    <p> Os eixos centrais de <b>Imersões</b> – Arte e arquitetura, Habitação social e Arquitetura 
                         e alteridades – procuram ampliar a discussão que se apresenta urgente e desdobra, no 
                         ano em que o Rio recebe da UNESCO o título de Capital Mundial da Arquitetura, o mote 
-                        anunciado pelo 27o Congresso Mundial de Arquitetos – UIA 2021: Todos os mundos. Um só 
-                        mundo.</p>
+                        anunciado pelo 27o Congresso Mundial de Arquitetos – UIA 2021: <i>Todos os mundos. <b>Um só 
+                        mundo</b></i>.</p>
                     
                     <p> Os palestrantes trarão experiências que abordem a configuração do espaço urbano como 
                         oportunidade de contato e exercício cotidiano da cidade e da arte, discutindo 
@@ -55,11 +52,19 @@ const Home = () => {
                         culturais do UIA 2021, “Imersões” é uma realização em parceria da Escola Sem Sítio, 
                         Casa França-Brasil e dos grupos de extensão e pesquisa CURA/UERJ e Linda/PUC-Rio.</p>
 
-                    <p> A partir do dia 25 de janeiro estarão abertas as inscrições para submissão de trabalhos 
-                        em vídeo que poderão ser exibidos durante as mesas de debate. A inscrição para assistir 
-                        às mesas será aberta em breve. </p>
+                    <p> A partir do <b>dia 25 de janeiro</b> estarão abertas as inscrições para submissão de trabalhos 
+                        em vídeo que poderão ser exibidos durante as mesas de debate. <b>A inscrição para assistir 
+                        às mesas será aberta em breve.</b></p>
+
+                    <div className='boxImg'>
+                        <HomeImg  id='homeImg' />
+                    </div>
                 </div>
               
+            </div>
+
+            <div id='footer'>
+                <Footer />
             </div>
         </>
 
