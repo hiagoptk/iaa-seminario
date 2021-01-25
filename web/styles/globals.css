@@ -213,7 +213,12 @@ nav ul li a:hover {
 #boxContato a {
     text-decoration: none;
     color: black;
-    
+}
+
+.boxContatos {
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
 }
 
 .box p {
