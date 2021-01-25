@@ -8,8 +8,8 @@ function BannerConvocatory() {
         <Image 
         src='/images/bannerConvoc.png'
         alt='Imersões * Arte e Arquitetura'
-        width={1749}
-        height={452}
+        width={1873}
+        height={331}
         layout='responsive'
         />
     );
