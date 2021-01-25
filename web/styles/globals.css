@@ -227,8 +227,7 @@ nav ul li a:hover {
     justify-content: space-around;
     align-items: center;
 
-    width: 55vw;
-    padding: 0.5rem;
+    width: 55vw;    
     margin: 10px 0;
 }
 
@@ -439,7 +438,8 @@ nav ul li a:hover {
     #buttonBox {
         width: 90vw;
         padding: 0.5rem;
-        margin: 10px 0 25px 0;
+        margin: 10px 0 35px 0;
+
 
     }
 
