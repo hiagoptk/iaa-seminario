@@ -44,7 +44,7 @@ const Home = () => {
                     <p> Os palestrantes trarão experiências que abordem a configuração do espaço urbano como 
                         oportunidade de contato e exercício cotidiano da cidade e da arte, discutindo 
                         transitoriedade, fluxos e outras formas de viver. Como pensar as relações entre arte, 
-                        rquitetura, a humanidade e a habitação social? A quem a arquitetura se destina? A quem, 
+                          arquitetura, a humanidade e a habitação social? A quem a arquitetura se destina? A quem, 
                         de fato, atende? Quais questões permeiam e afetam, sobretudo, a vida urbana? Que 
                         questionamentos podem ser trazidos para esse campo? O que se vislumbra? </p>
 

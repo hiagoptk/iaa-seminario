@@ -26,8 +26,8 @@ const Contato = () => {
                         da convocatória e que não estejam previstas no <b><a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>FAQ</a></b>.</p>
                    <div className='boxContatos'>
                     <p><b>Organização:</b> <i>seminario@imersoes.arq.br</i></p>
-                      
-                    <p><b>Acessoria de Impensa:</b> <i>carolina.feital@trevocomunicativa.com.br</i></p>
+                        
+                    <p><b>Assessoria de Imprensa:</b> <i>carolina.feital@trevocomunicativa.com.br</i></p> 
                     </div>
                 </div>
               
