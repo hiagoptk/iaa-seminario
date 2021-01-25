@@ -292,6 +292,11 @@ nav ul li a:hover {
         display: block;
     }
 
+    .boxBannerConvoc {
+        width: 90vw;
+        margin-top: -1rem;
+    }
+
 
     #header {
         width: 90vw;
@@ -417,12 +422,14 @@ nav ul li a:hover {
         padding: 0.5rem;
         margin-top: 10px;
 
-        border: springgreen 1px solid;
+        
     }
 
     #buttonBox .button {
         width: 6rem;
         height: 2rem;
+        font-weight: bolder;
+        font-size: 0.6rem;
     }
 
     #footer {

@@ -21,11 +21,6 @@ const Convocatory = () => {
                 <div className='boxBannerConvoc' >
                     <BannerConvocatory />
                 </div> 
-                    
-                <div className='boxBannerMobile' >
-                    <BannerMobile />               
-                </div> 
-                
                 
                 <div className='box' >
                     <p>A presente chamada propõe a seleção de apresentações em vídeo de até 4’ 59” (quatro minutos de cinquenta e nove segundos)
