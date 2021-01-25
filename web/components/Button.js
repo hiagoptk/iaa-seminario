@@ -18,7 +18,7 @@ const Button = () => {
 
 
             <a href='https://docs.google.com/forms/d/1qF_8qfsI5sj6Z6Bu9Xr2czZNMzVhAExqQS7VtdV9QZE/edit' target='_blank'>
-                <button className='button' id='form'>
+                <button className='button' id='form' disabled>
                     INSCREVA-SE
                 </button>
             </a>

@@ -22,13 +22,13 @@ const Navbar = () => {
                 <ul>
                     <li> <a href='/'>HOME </a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/convoc'>CONVOCATÓRIA</a></li>
+                    <li> <a href='/convocatoria'>CONVOCATÓRIA</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/convoc'>PROGRAMAÇÃO </a></li>
+                    <li> <p>PROGRAMAÇÃO</p></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/convoc'>PALESTRANTES </a></li>
+                    <li> <p>PALESTRANTES</p></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/convoc'>CONTATO  </a></li>
+                    <li> <a href='/contato'>CONTATO  </a></li>
                 </ul>
             </nav>
     )

@@ -230,11 +230,10 @@ nav ul li a:hover {
     width: 55vw;
     padding: 0.5rem;
     margin: 10px 0;
-
 }
 
 #buttonBox .button {
-    width: 13rem;
+    width: 10rem;
     height: 2rem;
     color: white;
     font-weight: bold;
