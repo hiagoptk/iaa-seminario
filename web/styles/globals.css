@@ -462,7 +462,7 @@ nav ul li a:hover {
 
     #footerConvocatory {
         width: 100vw;   
-        height: 5rem;
+        height: auto;
         background-color: white;
         position: fixed bottom;
         
