@@ -10,6 +10,7 @@
 :root {
     --cor-principal: rgb(255, 255, 0);
     --cor-link: rgb(210, 35, 42);
+    --cor-button: rgb(37, 64, 143);
 }
 
 * {
@@ -34,7 +35,7 @@ body {
     
 }
 
-#main {
+.main {
     width: 100vw;
     height: auto;
     display: flex;
@@ -61,6 +62,13 @@ body {
     display: none;
 }
 
+.boxBannerConvoc {
+    max-width: 1173px;
+    min-width:  117px;
+    max-height: 341px;
+    width: 60vw;
+    display: block;
+}
 
   /* CABEÇALHO */
   nav {
@@ -188,7 +196,7 @@ nav ul li a:hover {
     width: 55vw;
     height: auto;
     
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     
     display: flex;
     flex-direction: column;
@@ -211,6 +219,31 @@ nav ul li a:hover {
     height: auto;
 }
 
+
+/*   ------------ ~ sz ~ CONVOCATÓRIA ~ sz ~ ------------   */
+
+#buttonBox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 55vw;
+    padding: 0.5rem;
+    margin: 10px 0;
+
+}
+
+#buttonBox .button {
+    width: 13rem;
+    height: 2rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-style: none;
+    border-radius: 3px;
+    background-color: var(--cor-button);
+}
+
 /*   ------------ ~ sz ~ FOOTER DO SITE ~ sz ~ ------------   */
 
 #footer {
@@ -231,6 +264,23 @@ nav ul li a:hover {
 
 }
 
+#footerConvocatory {
+    width: 100vw;        
+    background-color: white;
+    position: fixed bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footerConvocatory div {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 55vw;
+    height: auto;
+}
+
 @media(max-width: 1000px) {
     
     body {
@@ -240,11 +290,14 @@ nav ul li a:hover {
         justify-content: center;    
     }
 
-    #main {
+    .main {
         margin-top: 25px;
     }
 
-
+    #convocatory {
+        margin-bottom: 7rem;
+    }
+    
     .boxBannerDesktop  {
         width: 100vw;
         height: auto;
@@ -257,6 +310,11 @@ nav ul li a:hover {
         height: auto;
         overflow: hidden;
         display: block;
+    }
+
+    .boxBannerConvoc {
+        width: 90vw;
+        margin-top: -1rem;
     }
 
 
@@ -281,7 +339,7 @@ nav ul li a:hover {
     #header .boxHeader span {
         font-size: smaller;
     }
-
+ 
 
     #header #social {
         width: 5vw;
@@ -306,7 +364,6 @@ nav ul li a:hover {
     }
 
     #header #social #fbBold {
-        
         font-size: 1rem;
     }
 
@@ -361,6 +418,7 @@ nav ul li a:hover {
         color: var(--cor-link)
     }
 
+    /* HOME */
     .box {
         width: 90vw;   
         padding: 15px 10px;
@@ -377,6 +435,21 @@ nav ul li a:hover {
         height: auto;
     }
 
+    /*   ------------ ~ sz ~ CONVOCATÓRIA ~ sz ~ ------------   */
+
+    #buttonBox {
+        width: 90vw;
+        padding: 0.5rem;
+        margin-top: 10px;
+    }
+
+    #buttonBox .button {
+        width: 6rem;
+        height: 2rem;
+        font-weight: bolder;
+        font-size: 0.6rem;
+    }
+
     #footer {
         width: 100vw;        
         background-color: white;
@@ -387,13 +460,23 @@ nav ul li a:hover {
 
     }
 
+    #footerConvocatory {
+        width: 100vw;   
+        height: 5rem;
+        background-color: white;
+        position: fixed bottom;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
     #footer div {
         max-width: 2000px;
         min-width: 80px;
         width: 90vw;
-        height: auto;
+        
     }
-
-
     
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import Head from 'next/head'
-import { IoIosColorPalette } from 'react-icons/io'
 import Navbar from '../components/Navbar';
+import BannerMobile from '../components/BannerMobile';
+import BannerConvocatory from '../components/BannerConvocatory';
+import Button from '../components/Button';
+import Footer from '../components/Footer';
 
 
 const Convocatory = () => {
     return (
-
-       
-
         <>
              <Head>
                 <title>Seminário IAA</title>
@@ -16,20 +16,29 @@ const Convocatory = () => {
             
             <Navbar />
                 
-            <div id='main'>
+            <div className='main'id='convocatory'>
+                
+                <div className='boxBannerConvoc' >
+                    <BannerConvocatory />
+                </div> 
+                
                 <div className='box' >
-                    <p>Imersões: arte e arquitetura é um seminário internacional realizado pela Escola Sem Sítio, em parceria com a Casa França Brasil e os grupos de extensão CURA e Linda, respectivamente vinculados a UERJ e a PUC-Rio, que acontecerá online, com transmissão ao vivo pelo Youtube, entre os dias 2 e 5 de março de 2021. Premiado no edital #RetomadaCulturalRJ da Secretaria de Estado de Cultura e de Economia Criativa do Rio de Janeiro e parte integrante da programação paralela do  27o Congresso Mundial de Arquitetos - UIA 2021 no ano em que o Rio recebe da UNESCO o título de Capital Mundial da Arquitetura, Imersões se faz em uma zona de convergências entre as práticas artísticas, arquitetônicas, urbanísticas e educacionais. </p>
+                    <p>A presente chamada propõe a seleção de apresentações em vídeo de até 4’ 59” (quatro minutos de cinquenta e nove segundos)
+                       de duração com vivências, reflexões, impressões, práticas artísticas, urbanísticas e arquitetônicas que possam contribuir 
+                       para as discussões empreendidas pelo <b>Seminário Imersões: arte e arquitetura</b>, proporcionando outras interfaces ao ampliar o 
+                       debate para além das falas das (dos) palestrantes. Interessa ao projeto apresentar experiências, oriundas do meio acadêmico, 
+                       artístico e/ou de comunidades e movimentos sociais, que se coloquem como insurgência ou alternativa às estruturas hegemônicas. </p>
                     
-                    <p>Seu ciclo de debates promoverá reflexões que transitam nesses campos do saber, promovendo sua difusão, ao mesmo tempo em que tornam a arte contemporânea e a arquitetura responsáveis por mais compromissos sociais. Como pensar as relações entre arte, arquitetura, a humanidade e a habitação social? A quem a arquitetura se destina? A quem, de fato, atende? Quais questões permeiam e afetam, sobretudo, a vida urbana? Que questionamentos podem ser trazidos para esse campo? O que se vislumbra? </p>
-                    
-                    <p>Confira a programação completa aqui. A partir do dia x estarão abertas as inscrições para submissão de trabalhos em vídeo que poderão ser exibidos durante as mesas de debate. A inscrição para assistir às mesas terá início no dia x.</p>
-
-                    <div id='sub'>
-                        <h3>Em breve!</h3>
-                        <button> SUBMETER TRABALHO </button>
-                    </div>
+                    <p>O prazo para submissão de trabalhos vai das 00h de 2 de fevereiro de 2021 até as 18h de 12 de fevereiro de 2021 (horário de Brasília).</p>
                 </div>
               
+                <div id='buttonBox'>
+                    <Button />
+                </div>
+            </div>
+
+            <div id='footerConvocatory'>
+                <Footer />
             </div>
         </>
 
