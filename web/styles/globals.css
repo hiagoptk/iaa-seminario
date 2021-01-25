@@ -200,10 +200,20 @@ nav ul li a:hover {
     
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: initial;
     justify-content: center;
 
     text-align: initial;
+}
+
+#boxContato {
+    margin-bottom: 80px;
+}
+
+#boxContato a {
+    text-decoration: none;
+    color: black;
+    
 }
 
 .box p {
