@@ -21,7 +21,7 @@ const Home = () => {
                 
                 <div className='boxBannerDesktop' >
                     <Banner />
-                </div> 
+                </div>  
                 
                 <div className='boxBannerMobile' >
                     <BannerMobile />               
