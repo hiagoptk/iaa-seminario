@@ -11,7 +11,8 @@ const Home = () => {
     return (
         <>
             <Head>
-              <title>Seminário Imersões</title>             
+              <title>Seminário Imersões</title>
+              <link rel="shortcut icon" type="image/x-icon" href='/images/favicon.ico' />
             </Head>
 
             <Navbar />
