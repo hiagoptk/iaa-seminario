@@ -11,7 +11,7 @@ const Button = () => {
 
 
             <a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>
-                <button className='button' id='pdfFAQ'>
+                <button className='button' id='pdfFAQ' >
                     FAQ 
                 </button>
             </a>

@@ -53,10 +53,7 @@ const Home = () => {
                         culturais do UIA 2021, “Imersões” é uma realização em parceria da Escola Sem Sítio, 
                         Casa França-Brasil e dos grupos de extensão e pesquisa CURA/UERJ e Linda/PUC-Rio.</p>
 
-                    <p> A partir do <b>dia 25 de janeiro</b> estarão abertas as inscrições para submissão de trabalhos 
-                        em vídeo que poderão ser exibidos durante as mesas de debate. <b>A inscrição para assistir 
-                        às mesas será aberta em breve.</b></p>
-
+                   
                     <div className='boxImg'>
                         <HomeImg  id='homeImg' />
                     </div>
