@@ -264,6 +264,23 @@ nav ul li a:hover {
 
 }
 
+#footerConvocatory {
+    width: 100vw;        
+    background-color: white;
+    position: fixed bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#footerConvocatory div {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 55vw;
+    height: auto;
+}
+
 @media(max-width: 1000px) {
     
     body {
@@ -277,7 +294,10 @@ nav ul li a:hover {
         margin-top: 25px;
     }
 
-
+    #convocatory {
+        margin-bottom: 7rem;
+    }
+    
     .boxBannerDesktop  {
         width: 100vw;
         height: auto;
@@ -319,7 +339,7 @@ nav ul li a:hover {
     #header .boxHeader span {
         font-size: smaller;
     }
-
+ 
 
     #header #social {
         width: 5vw;
@@ -421,8 +441,6 @@ nav ul li a:hover {
         width: 90vw;
         padding: 0.5rem;
         margin-top: 10px;
-
-        
     }
 
     #buttonBox .button {
@@ -442,13 +460,23 @@ nav ul li a:hover {
 
     }
 
+    #footerConvocatory {
+        width: 100vw;   
+        height: 5rem;
+        background-color: white;
+        position: fixed bottom;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
     #footer div {
         max-width: 2000px;
         min-width: 80px;
         width: 90vw;
-        height: auto;
+        
     }
-
-
     
 }

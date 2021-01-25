@@ -16,7 +16,7 @@ const Convocatory = () => {
             
             <Navbar />
                 
-            <div className='main'>
+            <div className='main'id='convocatory'>
                 
                 <div className='boxBannerConvoc' >
                     <BannerConvocatory />
@@ -30,16 +30,14 @@ const Convocatory = () => {
                        artístico e/ou de comunidades e movimentos sociais, que se coloquem como insurgência ou alternativa às estruturas hegemônicas. </p>
                     
                     <p>O prazo para submissão de trabalhos vai das 00h de 2 de fevereiro de 2021 até as 18h de 12 de fevereiro de 2021 (horário de Brasília).</p>
-
-
-                    <div id='buttonBox'>
-                        <Button />
-                    </div>
                 </div>
               
+                <div id='buttonBox'>
+                    <Button />
+                </div>
             </div>
 
-            <div id='footer'>
+            <div id='footerConvocatory'>
                 <Footer />
             </div>
         </>
