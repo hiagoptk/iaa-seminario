@@ -24,8 +24,11 @@ const Contato = () => {
                     <p>Dúvidas sobre a <b><a href='https://drive.google.com/file/d/1ZYlrC7TAX4_Y2zxCmbTuRPLUNTrLNs-n/view?usp=sharing' target='_blank'>Convocatória</a></b> poderão ser dirigidas por meio do e-mail. 
                         Para um suporte <b><i>adequado</i></b>, somente serão respondidas questões relativas à interpretação 
                         da convocatória e que não estejam previstas no <b><a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>FAQ</a></b>.</p>
-                    
+                   <div className='boxContatos'>
                     <p><b>Organização:</b> <i>seminario@imersoes.arq.br</i></p>
+                        
+                    <p><b>Assessoria de Imprensa:</b> <i>carolina.feital@trevocomunicativa.com.br</i></p> 
+                    </div>
                 </div>
               
             </div>

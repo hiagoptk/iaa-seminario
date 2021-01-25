@@ -200,11 +200,11 @@ nav ul li a:hover {
     
     display: flex;
     flex-direction: column;
-    align-items: initial;
+    align-items: center;
     justify-content: center;
 
-    text-align: initial;
-}
+    
+} 
 
 #boxContato {
     margin-bottom: 80px;
@@ -213,7 +213,13 @@ nav ul li a:hover {
 #boxContato a {
     text-decoration: none;
     color: black;
-    
+}
+  
+.boxContatos {  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
 }
 
 .box p {
