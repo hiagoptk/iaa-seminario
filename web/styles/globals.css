@@ -26,7 +26,7 @@
 body {
     width: 100%;
     height: auto;
-    background-color: var(--cor-principal);
+    
     
     display: flex;
     flex-direction: column;
@@ -43,6 +43,8 @@ body {
     align-self: center;
     align-items: center;
     justify-content: center;
+    padding-bottom: 3rem;
+    background-color: var(--cor-principal);
 }
 
 
@@ -81,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--cor-principal);
 }
 
 nav ul {
@@ -194,8 +197,6 @@ nav ul li a:hover {
     max-width: 2000px;
     min-width: 80px;
     width: 55vw;
-    height: auto;
-    
     margin-bottom: 0.5rem;
     
     display: flex;
@@ -245,6 +246,8 @@ nav ul li a:hover {
 
     width: 55vw;    
     margin: 10px 0;
+
+    margin-bottom: 5rem;
 }
 
 #buttonBox .button {
@@ -272,7 +275,9 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 2rem;
+    
+    
 }
 
 #footer div {
@@ -280,7 +285,7 @@ nav ul li a:hover {
     min-width: 80px;
     width: 55vw;
     height: auto;
-
+    
 }
 
 #footerConvocatory {
@@ -290,7 +295,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 2rem;
 }
 
 #footerConvocatory div {
@@ -298,6 +303,7 @@ nav ul li a:hover {
     min-width: 80px;
     width: 55vw;
     height: auto;
+    
 }
 
 @media(max-width: 1000px) {
