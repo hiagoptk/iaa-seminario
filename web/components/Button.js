@@ -8,7 +8,7 @@ const Button = () => {
             </button>
    
             <button className='button' id='pdfFAQ' >
-                <a href='https://drive.google.com/file/d/1-j-MD2IX7JeRcPIXPJOTpumWKM0UUJLk/view?usp=sharing' target='_blank'>  FAQ </a>
+                <a href='https://drive.google.com/file/d/1ITLwNAM_GgdWXW1u38wAIi7sH4HQTQ3W/view?usp=sharing' target='_blank'>  FAQ </a>
             </button>
    
             <a href='https://docs.google.com/forms/d/1qF_8qfsI5sj6Z6Bu9Xr2czZNMzVhAExqQS7VtdV9QZE/edit' target='_blank'>
