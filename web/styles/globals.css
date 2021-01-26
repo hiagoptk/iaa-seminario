@@ -20,19 +20,14 @@
 
     font-family: Helvetica, sans-serif;    
     font-size: 1em;
-
 }
 
 body {
     width: 100%;
     height: auto;
-    
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 
 .main {
@@ -79,7 +74,6 @@ body {
     height: auto;
     padding-top: 1.5rem;
     position: fixed top;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,27 +84,20 @@ nav ul {
     padding: 0.6rem 0.3rem;
     width: 55vw;
     max-width: 2000px;
-
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
-
-    
 }
 
 nav ul li {
     width: auto;
     height: 2rem;
     padding: 0 0.2rem;
-    
-
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     align-items: center;
-
-    
 }
 
 nav ul li p {
@@ -138,12 +125,9 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-
-    
 }
 
 #header .boxHeader {
-    
     width: 55vw;
     height: auto;
  }
@@ -160,7 +144,6 @@ nav ul li a:hover {
  #header #social {
     width: 8vw;
     height: auto;
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;   
@@ -188,7 +171,6 @@ nav ul li a:hover {
     text-decoration: none;
     font-size: 1.1rem;
     color: var(--cor-link)
-
 }
 
 
@@ -198,13 +180,10 @@ nav ul li a:hover {
     min-width: 80px;
     width: 55vw;
     margin-bottom: 0.5rem;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    
 } 
 
 #boxContato {
@@ -243,10 +222,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     width: 55vw;    
     margin: 10px 0;
-
     margin-bottom: 5rem;
 }
 
@@ -276,8 +253,6 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    
-    
 }
 
 #footer div {
@@ -285,7 +260,6 @@ nav ul li a:hover {
     min-width: 80px;
     width: 55vw;
     height: auto;
-    
 }
 
 #footerConvocatory {
@@ -303,7 +277,6 @@ nav ul li a:hover {
     min-width: 80px;
     width: 55vw;
     height: auto;
-    
 }
 
 @media(max-width: 1000px) {
@@ -315,12 +288,9 @@ nav ul li a:hover {
         justify-content: center;    
     }
 
-    .main {
-        margin-top: 25px;
-    }
 
     #convocatory {
-        margin-bottom: 7rem;
+        padding-top: 1rem;
     }
     
     .boxBannerDesktop  {
@@ -351,7 +321,6 @@ nav ul li a:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
         overflow: hidden;
     }
 
@@ -369,7 +338,6 @@ nav ul li a:hover {
     #header #social {
         width: 5vw;
         height: 6em;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -393,14 +361,12 @@ nav ul li a:hover {
     }
 
     nav {
-        
         color: black;
         width: 100vw;
         height: auto;
         padding-top: 1rem;
         padding-left: 10px;
         position: fixed top;
-        
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -408,7 +374,6 @@ nav ul li a:hover {
 
     nav ul {
         width: 90vw;
-
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -422,9 +387,7 @@ nav ul li a:hover {
         width: auto;
         height: 0.5rem;
         padding: 0;
-        
         font-size: 1rem;
-
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -466,8 +429,6 @@ nav ul li a:hover {
         width: 90vw;
         padding: 0.5rem;
         margin: 10px 0 35px 0;
-
-
     }
 
     #buttonBox .button {
@@ -487,23 +448,28 @@ nav ul li a:hover {
 
     }
 
-    #footerConvocatory {
-        width: 100vw;   
-        height: auto;
-        background-color: white;
-        position: fixed bottom;
-        
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        
-    }
-
     #footer div {
         max-width: 2000px;
         min-width: 80px;
         width: 90vw;
-        
     }
+    
+
+    #footerConvocatory {
+        width: 100vw;   
+        background-color: white;
+        position: fixed bottom;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: steelblue 1px solid;
+    }
+
+    #footerConvocatory div {
+        max-width: 2000px;
+        min-width: 80px;
+        width: 90vw;
+    }
+    
     
 }
