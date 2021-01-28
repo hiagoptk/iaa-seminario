@@ -332,12 +332,12 @@ nav ul li a:hover {
 }
 
 .red p {
-    font-family: 'Bonoco';
+    font-family: 'Bonoci';
     color: var(--cor-link);
 }
 
 .blue p {
-    font-family: 'Bonoco';
+    font-family: 'Bonoci';
     color: var(--cor-button);
 }
 
@@ -360,7 +360,7 @@ nav ul li a:hover {
 }
 
 .boxItem h2 {
-    font-family: 'Bonoco';
+    font-family: 'Bonoci';
     font-size: x-large;
     padding-left: 5px;
 }
