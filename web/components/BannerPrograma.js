@@ -8,8 +8,8 @@ function BannerPrograma() {
         <Image 
         src='/images/bannerPrograma.png'
         alt='Imersões * Programações'
-        width={1873}
-        height={331}
+        width={1849}
+        height={295}
         layout='responsive'
         />
     );
