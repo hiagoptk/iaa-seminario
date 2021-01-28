@@ -279,6 +279,87 @@ nav ul li a:hover {
     height: auto;
 }
 
+
+
+/* -------------------------------- PAGINA PROGRAMAÇÃO --------------------------------------*/
+#program {
+    border: lightseagreen 1px solid;
+}
+
+#topoPrograma{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+    
+
+    border: lawngreen 1px solid;
+}
+
+#topoPrograma p {
+    font-size: 0.9rem;
+}
+
+.separa {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 55vw;
+    height: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+
+    margin: 10px 0;
+    border: lawngreen 1px solid;
+
+    
+}
+
+.red  {
+    color: var(--cor-link);
+}
+
+.blue  {
+    color: var(--cor-button);
+}
+
+.red p {
+    font-family: 'Bonoco';
+    color: var(--cor-link);
+}
+
+.blue p {
+    font-family: 'Bonoco';
+    color: var(--cor-button);
+}
+
+.boxItem {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    padding: 10px 5px;
+    border: lawngreen 1px solid;
+}
+
+
+
+.boxItem h5 {
+    font-size: small;
+    padding-left: 5px;
+}
+
+.boxItem h2 {
+    font-family: 'Bonoco';
+    font-size: x-large;
+    padding-left: 5px;
+}
+
+.boxItem span {
+    font-size: 0.7rem;  
+}
+
+
+/* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
+
 @media(max-width: 1000px) {
     
     body {
