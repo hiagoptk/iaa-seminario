@@ -405,6 +405,11 @@ nav ul li a:hover {
         margin-top: -1rem;
     }
 
+    .boxBannerPrograma {
+        width: 85vw;
+        display: block;
+    }
+
 
     #header {
         width: 90vw;
@@ -564,5 +569,15 @@ nav ul li a:hover {
         width: 90vw;
     }
     
+    /*   ------------ ~ sz ~ PROGRAMAÇÃO PAGE ~ sz ~ ------------   */
+
+    .separa {
+        width: 95vw;
+        height: 20px;
+        overflow: hidden;
+        padding-left: 5px;
+    
+        margin: 10px 0;
+    }
     
 }
