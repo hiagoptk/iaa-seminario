@@ -21,8 +21,9 @@ const Contato = () => {
                 </div> 
                 
                 <div className='box' id='topoPrograma' >
-                   <h4>PROGRAMAÇÃO COMPLETA</h4>
+                   
                    <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para LIBRAS.</p>
+                   <p>Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita aqui</p>
                 </div>
 
                 
@@ -35,13 +36,13 @@ const Contato = () => {
                 
                     <h5> PRIMEIRO DIA</h5>
                 
-                    <h2 className='blue'> 2 DE MARÇO </h2>
+                    <h2 className='blue'> 2 MARÇO </h2>
                     <div id='block'>
                         <p><b>16h às 17h30 - Patrimônio e Cidade (Mesa Institucional)</b></p>
-                        <p><span>PALESTRANTE</span> <b>Augusto Ivan</b> (Arquiteto/RJ)</p>
-                        <p><span>PARTICIPANTE</span> <b>Danielle Barros</b> (Secretária de Cultura do Estado do Rio de Janeiro/RJ) 
-                            e <b>Helena Severo</b> (Diretora da Casa França-Brasil/RJ) </p>
-                        <p><span>MEDIADOR</span>: <b>Jocelino Pessoa</b> (Organização/RJ)</p>
+                        <p><span>PALESTRANTE</span> <b>Augusto Ivan</b> <span>(Arquiteto/RJ)</span> <br />
+                        <b>Helena Severo</b> <span>(Diretora da Casa França-Brasil/RJ)</span></p>
+                        <p><span>CONVIDADA</span> <b>Danielle Barros</b> <span>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
+                        <p><span>MEDIADOR</span> <b>Jocelino Pessoa</b> <span>(Produtor cultural/RJ)</span></p>
                     </div>
 
                     <div>
