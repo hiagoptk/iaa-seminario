@@ -23,7 +23,7 @@ const Contato = () => {
                 <div className='box' id='topoPrograma' >
                    
                    <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para LIBRAS.</p>
-                   <p>Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita aqui</p>
+                   <p id ='anoucer'><b>Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita aqui. </b></p>
                 </div>
 
                 
@@ -39,25 +39,30 @@ const Contato = () => {
                     <h2 className='blue'> 2 MARÇO </h2>
                     <div id='block'>
                         <p><b>16h às 17h30 - Patrimônio e Cidade (Mesa Institucional)</b></p>
-                        <p><span>PALESTRANTE</span> <b>Augusto Ivan</b> <span>(Arquiteto/RJ)</span> <br />
-                        <b>Helena Severo</b> <span>(Diretora da Casa França-Brasil/RJ)</span></p>
-                        <p><span>CONVIDADA</span> <b>Danielle Barros</b> <span>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
-                        <p><span>MEDIADOR</span> <b>Jocelino Pessoa</b> <span>(Produtor cultural/RJ)</span></p>
+                        <p><span>PALESTRANTES</span> <br /> 
+                            <b>Augusto Ivan</b> <span>(Arquiteto/RJ)</span> <b> Helena Severo</b> <span>(Diretora da Casa França-Brasil/RJ)</span></p>
+                        <p><span>CONVIDADA</span> <br /> 
+                            <b>Danielle Barros</b> <span>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
+                        <p><span>MEDIADOR</span>  <br />
+                            <b>Jocelino Pessoa</b> <span>(Produtor cultural/RJ)</span></p>
                     </div>
 
                     <div>
                         <p><b>18h às 20h - Atravessamentos Contemporâneos (Mesa de Abertura)</b></p>
 
-                        <p>A condição contemporânea dos atravessamentos entre arte e arquitetura, no campo ampliado da cultura, 
-                        reconfiguram e desestabilizam os pensamentos da formação clássica no campo da arquitetura, uma disciplina 
-                        que se desenvolveu, historicamente, voltada para classes sociais mais abastadas. Situar o debate nessa relação 
-                        fronteiriça, potencializando esta zona de contato, apresenta-se como caminho possível de insurgência e 
-                        enfrentamento diante das históricas desigualdades envolvidas nas questões de classe, gênero e etnicidade.</p>
+                        <p>A condição contemporânea dos atravessamentos entre arte e arquitetura, no campo ampliado
+                            da cultura, reconfiguram e desestabilizam os pensamentos da formação clássica no campo da
+                            arquitetura, uma disciplina que se desenvolveu, historicamente, voltada para classes sociais
+                            mais abastadas. Situar o debate nessa relação fronteiriça, potencializando esta zona de
+                            contato, apresenta-se como caminho possível de insurgência e enfrentamento diante das
+                            históricas desigualdades envolvidas nas questões de classe, gênero e etnicidade.</p>
 
-                        <p><span>CONVIDADOS</span> <b>André Carvalho</b> (Curador de Arquitetura do <b>Imersões/RJ</b>) e 
-                            <b>Patti Anahory</b> (Arquiteta, Cabo Verde)</p>
+                        <p><span>CONVIDADOS</span> <br /> 
+                            <b>André Carvalho</b> <span>(Arquiteto e urbanista/RJ)</span> e 
+                            <b> Patti Anahory</b> <span>(Arquiteta, Cabo Verde)</span></p>
                         
-                        <p><span>MEDIADOR</span>: <b>Tania Queiroz</b> (Organização/RJ)</p>
+                        <p><span>MEDIAÇÃO</span> <br /> 
+                            <b>Tania Queiroz</b> <span>(Organização/RJ)</span></p>
                     </div>
 
                 </div>

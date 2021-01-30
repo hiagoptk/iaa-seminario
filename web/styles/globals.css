@@ -199,6 +199,10 @@ nav ul li a:hover {
     margin-bottom: 80px;
 }
 
+#boxContato span {
+    font-size: 0.7rem;  
+}
+
 #boxContato a {
     text-decoration: none;
     color: black;
@@ -307,6 +311,10 @@ nav ul li a:hover {
 
 #topoPrograma p {
     font-size: 0.9rem;
+}
+
+#anoucer {
+    color: var(--cor-link);
 }
 
 .separa {
