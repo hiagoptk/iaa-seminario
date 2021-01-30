@@ -125,7 +125,7 @@ const Contato = () => {
                 
                     <h5> QUARTO DIA</h5>
                 
-                    <h2 className='red'> 5 DE MARÇO </h2>
+                    <h2 className='red'> 5 MARÇO </h2>
                 
                     <p><b>17h às 20h - Arquitetura e alteridades</b></p>
                     
