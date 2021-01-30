@@ -11,7 +11,8 @@ const Convocatory = () => {
     return (
         <>
              <Head>
-                <title>Seminário IAA</title>
+              <title>Seminário Imersões</title>
+              <link rel="shortcut icon" type="image/x-icon" href='/images/favicon.ico' />
             </Head>
             
             <Navbar />
