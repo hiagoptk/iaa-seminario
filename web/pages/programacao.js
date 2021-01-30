@@ -38,17 +38,17 @@ const Contato = () => {
                 
                     <h2 className='blue'> 2 MARÇO </h2>
                     <div id='block'>
-                        <p><b>16h às 17h30 - Patrimônio e Cidade (Mesa Institucional)</b></p>
+                        <p><b>16h às 17h30 - Patrimônio e Cidade </b> (Mesa institucional)</p>
                         <p><span>PALESTRANTES</span> <br /> 
-                            <b>Augusto Ivan</b> <span>(Arquiteto/RJ)</span> <b> Helena Severo</b> <span>(Diretora da Casa França-Brasil/RJ)</span></p>
+                            <b>Augusto Ivan</b> <span className='prof'>(Arquiteto/RJ)</span> <b> Helena Severo</b> <span className='prof'>(Diretora da Casa França-Brasil/RJ)</span></p>
                         <p><span>CONVIDADA</span> <br /> 
-                            <b>Danielle Barros</b> <span>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
+                            <b>Danielle Barros</b> <span className='prof'>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
                         <p><span>MEDIADOR</span>  <br />
-                            <b>Jocelino Pessoa</b> <span>(Produtor cultural/RJ)</span></p>
+                            <b>Jocelino Pessoa</b> <span className='prof'>(Produtor cultural/RJ)</span></p>
                     </div>
 
                     <div>
-                        <p><b>18h às 20h - Atravessamentos Contemporâneos (Mesa de Abertura)</b></p>
+                        <p><b>18h às 20h - Atravessamentos Contemporâneos</b> (Mesa de Abertura)</p>
 
                         <p>A condição contemporânea dos atravessamentos entre arte e arquitetura, no campo ampliado
                             da cultura, reconfiguram e desestabilizam os pensamentos da formação clássica no campo da
@@ -58,7 +58,7 @@ const Contato = () => {
                             históricas desigualdades envolvidas nas questões de classe, gênero e etnicidade.</p>
 
                         <p><span>CONVIDADOS</span> <br /> 
-                            <b>André Carvalho</b> <span>(Arquiteto e urbanista/RJ)</span> e 
+                            <b>André Carvalho</b> <span>(Arquiteto e urbanista/RJ)</span>  
                             <b> Patti Anahory</b> <span>(Arquiteta, Cabo Verde)</span></p>
                         
                         <p><span>MEDIAÇÃO</span> <br /> 

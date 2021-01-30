@@ -199,8 +199,8 @@ nav ul li a:hover {
     margin-bottom: 80px;
 }
 
-#boxContato span {
-    font-size: 0.7rem;  
+#boxContato .profissao {
+    font-size: 0.9rem;  
 }
 
 #boxContato a {
@@ -220,6 +220,7 @@ nav ul li a:hover {
     font-size: 1rem;
     padding: 0.5rem;
 }
+
 
 .boxImg {
     max-width: 2000px;
@@ -376,6 +377,11 @@ nav ul li a:hover {
 .boxItem span {
     font-size: 0.7rem;  
 }
+
+.boxItem .prof {
+    font-size: 0.9rem;  
+}
+
 
 
 /* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
@@ -588,4 +594,7 @@ nav ul li a:hover {
         margin: 10px 0;
     }
     
+    .boxItem p b {
+        font-size: 0.95rem;
+    }
 }
