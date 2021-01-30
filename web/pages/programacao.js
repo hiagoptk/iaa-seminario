@@ -48,7 +48,7 @@ const Contato = () => {
                     </div>
 
                     <div>
-                        <p><b>18h às 20h - Atravessamentos Contemporâneos</b> (Mesa de Abertura)</p>
+                        <p><b>18h às 20h - Atravessamentos Contemporâneos</b> (Mesa de abertura)</p>
 
                         <p>A condição contemporânea dos atravessamentos entre arte e arquitetura, no campo ampliado
                             da cultura, reconfiguram e desestabilizam os pensamentos da formação clássica no campo da
@@ -57,7 +57,7 @@ const Contato = () => {
                             contato, apresenta-se como caminho possível de insurgência e enfrentamento diante das
                             históricas desigualdades envolvidas nas questões de classe, gênero e etnicidade.</p>
 
-                        <p><span>CONVIDADOS</span> <br /> 
+                        <p><span>PALESTRANTES</span> <br /> 
                             <b>André Carvalho</b> <span className='prof'>(Arquiteto e Urbanista/RJ)</span>  
                             <b> Patti Anahory</b> <span className='prof'>(Arquiteta, Cabo Verde)</span></p>
                         
