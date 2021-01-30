@@ -75,7 +75,7 @@ const Contato = () => {
                 
                     <h5> SEGUNDO DIA</h5>
                 
-                    <h2 className='red'> 3 DE MARÇO </h2>
+                    <h2 className='red'> 3 MARÇO </h2>
                 
                     <p><b>17h às 20h -  Arte e Arquitetura </b></p>
                     
@@ -83,9 +83,11 @@ const Contato = () => {
                         a partir das urgências sociais. A forma, paradigma comum às duas áreas, atravessa compreensões sociais que se direcionam 
                         aos distintivos de gênero, classe e etnicidade.</p>
 
-                    <p><span>CONVIDADOS</span> <b>Bárbara Copque</b> (Artista/RJ), <b>Cadu</b> (Artista e Professor da PUC Rio) e <b>Joice Berth</b> (Arquiteta, urbanista e escritora/SP) </p>
+                    <p><span>PALESTRANTES</span> <br /> 
+                        <b>Bárbara Copque</b> <span className='prof'>(Artista/RJ)</span>, <b>Cadu</b> <span className='prof'>(Artista e Professor/RJ)</span> <br /> <b>Joice Berth</b> <span className='prof'>(Arquiteta, Urbanista e Escritora/SP)</span> </p>
             
-                    <p><span>MEDIADOR</span>: <b>João Paulo Quintella</b> (Curador/RJ)</p>
+                    <p><span>MEDIADOR</span> <br />
+                        <b>João Paulo Quintella</b> <span className='prof'>(Curador de Arte/RJ)</span></p>
 
                 </div>
 
@@ -97,7 +99,7 @@ const Contato = () => {
                 
                     <h5> TERCEIRO DIA</h5>
                 
-                    <h2 className='blue'> 4 DE MARÇO </h2>
+                    <h2 className='blue'> 4 MARÇO </h2>
                 
                     <p><b>17h às 20h - Habitação social</b></p>
 
@@ -108,8 +110,9 @@ const Contato = () => {
                         De que modo equacionar o direito à cidade com interesses políticos especulativos na compreensão de soluções já existentes, 
                         advindas dos próprios grupos segregados?</p>
 
-                    <p><span>CONVIDADOS</span> <b>Maurício Hora</b> (Artista e ativista social/RJ), <b>Raquel Rolnik</b> (Arquiteta e urbanista/SP) e <b>William Bittar</b> (Arquiteto e Professor emérito da FAU-UFRJ) </p>
-                    <p><span>MEDIADOR</span>: <b>Patricia Oliveira</b> (Arquiteta/RJ)</p>
+                    <p><span>PALESTRANTES</span> <br /> <b>Maurício Hora</b> <span className='prof'>(Artista/RJ)</span>, <b>Raquel Rolnik</b> <span className='prof'>(Arquiteta e Urbanista/SP)</span> <br /> 
+                    <b>William Bittar</b> <span className='prof'>(Arquiteto e Professor/RJ)</span> </p>
+                    <p><span>MEDIADORA</span> <br /> <b>Patricia Oliveira</b> <span className='prof'>(Arquiteta/RJ)</span></p>
 
                 </div>
 
@@ -129,9 +132,11 @@ const Contato = () => {
                         Sempre houve um intervalo, um abismo entre desenhar, projetar, construir e os usos da casa com suas tradições ancestrais. 
                         O encontro entre arquitetura e sonho, arquitetura e reza, arquitetura e natureza tornou-se, cada vez mais, fundamental. </p>
 
-                    <p><span>CONVIDADOS</span> <b>Gabriela Gaia</b> (Artista/BA), <b>Carla Akotirene</b> (Escritora/BA) e <b>Sallisa Rosa</b> (Artista/RJ) </p>
+                    <p><span>PALESTRANTES</span> <br />
+                        <b>Gabriela Gaia</b> <span className='prof'>(Arquiteta/BA)</span>, <b>Sallisa Rosa</b> <span className='prof'>(Artista/RJ)</span> </p>
                     
-                    <p><span>MEDIADOR</span>: <b>Marcelo Campos</b> (Curador de Arte do Imersões/RJ)</p>
+                    <p><span>MEDIADOR</span> <br /> 
+                        <b>Marcelo Campos</b> <span className='prof'>(Curador de Arte do Imersões/RJ)</span></p>
 
                 </div>
 

@@ -372,6 +372,7 @@ nav ul li a:hover {
     font-family: 'Bonoci';
     font-size: x-large;
     padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 .boxItem span {
