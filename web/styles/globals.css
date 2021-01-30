@@ -199,8 +199,8 @@ nav ul li a:hover {
     margin-bottom: 80px;
 }
 
-#boxContato .profissao {
-    font-size: 0.9rem;  
+.boxContatos span {
+    font-size: 0.7rem;  
 }
 
 #boxContato a {
