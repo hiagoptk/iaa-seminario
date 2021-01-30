@@ -8,8 +8,8 @@ function BannerContato() {
         <Image 
         src='/images/bannerContato3.png'
         alt='Imersões * Convocatória'
-        width={1873}
-        height={331}
+        width={1849}
+        height={295}
         layout='responsive'
         />
     );

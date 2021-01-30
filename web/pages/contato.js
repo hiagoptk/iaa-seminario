@@ -15,9 +15,9 @@ const Contato = () => {
             
             <Navbar />
                 
-            <div className='main'id='convocatory'>
+            <div className='main' id='convocatory'>
                 
-                <div className='boxBannerConvoc' >
+                <div className='boxBannerPrograma' >
                     <BannerContato />
                 </div> 
                 

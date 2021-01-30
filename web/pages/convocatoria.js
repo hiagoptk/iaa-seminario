@@ -19,7 +19,7 @@ const Convocatory = () => {
                 
             <div className='main'id='convocatory'>
                 
-                <div className='boxBannerConvoc' >
+                <div className='boxBannerPrograma' >
                     <BannerConvocatory />
                 </div> 
                 
