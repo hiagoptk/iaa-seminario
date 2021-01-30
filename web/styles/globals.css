@@ -67,6 +67,15 @@ body {
     display: block;
 }
 
+.boxBannerPrograma {
+    max-width: 1849px;
+    min-width:  117px;
+    max-height: 295px;
+    width: 55vw;
+    display: block;
+}
+
+
   /* CABEÇALHO */
   nav {
     
@@ -190,6 +199,10 @@ nav ul li a:hover {
     margin-bottom: 80px;
 }
 
+.boxContatos span {
+    font-size: 0.7rem;  
+}
+
 #boxContato a {
     text-decoration: none;
     color: black;
@@ -207,6 +220,7 @@ nav ul li a:hover {
     font-size: 1rem;
     padding: 0.5rem;
 }
+
 
 .boxImg {
     max-width: 2000px;
@@ -279,6 +293,100 @@ nav ul li a:hover {
     height: auto;
 }
 
+
+
+/* -------------------------------- PAGINA PROGRAMAÇÃO --------------------------------------*/
+
+
+#topoPrograma{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+    
+}
+
+#topoPrograma h4 {
+    margin-left: 5px;
+}
+
+#topoPrograma p {
+    font-size: 0.9rem;
+}
+
+#anoucer {
+    color: var(--cor-link);
+}
+
+.separa {
+    max-width: 2000px;
+    min-width: 80px;
+    width: 55vw;
+    height: 20px;
+    overflow: hidden;
+    padding-left: 5px;
+
+    margin: 10px 0;
+    
+
+    
+}
+
+.red  {
+    color: var(--cor-link);
+}
+
+.blue  {
+    color: var(--cor-button);
+}
+
+.red p {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+}
+
+.blue p {
+    font-family: 'Bonoci';
+    color: var(--cor-button);
+}
+
+.boxItem {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    padding: 10px 5px;
+    
+}
+
+#block {
+    
+    margin-bottom: 20px;
+}
+
+.boxItem h5 {
+    font-size: small;
+    padding-left: 5px;
+}
+
+.boxItem h2 {
+    font-family: 'Bonoci';
+    font-size: x-large;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.boxItem span {
+    font-size: 0.7rem;  
+}
+
+.boxItem .prof {
+    font-size: 0.85rem;  
+}
+
+
+
+/* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
+
 @media(max-width: 1000px) {
     
     body {
@@ -310,6 +418,11 @@ nav ul li a:hover {
     .boxBannerConvoc {
         width: 90vw;
         margin-top: -1rem;
+    }
+
+    .boxBannerPrograma {
+        width: 85vw;
+        display: block;
     }
 
 
@@ -471,5 +584,18 @@ nav ul li a:hover {
         width: 90vw;
     }
     
+    /*   ------------ ~ sz ~ PROGRAMAÇÃO PAGE ~ sz ~ ------------   */
+
+    .separa {
+        width: 95vw;
+        height: 20px;
+        overflow: hidden;
+        padding-left: 5px;
     
+        margin: 10px 0;
+    }
+    
+    .boxItem p b {
+        font-size: 0.95rem;
+    }
 }
