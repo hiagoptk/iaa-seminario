@@ -25,9 +25,9 @@ const Contato = () => {
                         Para um suporte adequado, somente serão respondidas questões relativas à interpretação 
                         da convocatória e que não estejam previstas no <b><a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>FAQ</a></b>.</p>
                    <div className='boxContatos'>
-                    <p><b>Organização:</b> <i>seminario@imersoes.arq.br</i></p>
+                    <p><span>ORGANIZAÇÃO</span> <br /> seminario@imersoes.arq.br</p>
                         
-                    <p><b>Assessoria de Imprensa:</b> <i>carolina.feital@trevocomunicativa.com.br</i></p> 
+                    <p><span>ASSESSORIA DE IMPRENSA</span> <br /> carolina.feital@trevocomunicativa.com.br</p> 
                     </div>
                 </div>
               
