@@ -44,7 +44,7 @@ const Contato = () => {
                         <p><span>CONVIDADA</span> <br /> 
                             <b>Danielle Barros</b> <span className='prof'>(Secretária de Cultura do Estado do Rio de Janeiro/RJ)</span></p>
                         <p><span>MEDIADOR</span>  <br />
-                            <b>Jocelino Pessoa</b> <span className='prof'>(Produtor cultural/RJ)</span></p>
+                            <b>Jocelino Pessoa</b> <span className='prof'>(Produtor Cultural/RJ)</span></p>
                     </div>
 
                     <div>
@@ -58,11 +58,11 @@ const Contato = () => {
                             históricas desigualdades envolvidas nas questões de classe, gênero e etnicidade.</p>
 
                         <p><span>CONVIDADOS</span> <br /> 
-                            <b>André Carvalho</b> <span>(Arquiteto e urbanista/RJ)</span>  
-                            <b> Patti Anahory</b> <span>(Arquiteta, Cabo Verde)</span></p>
+                            <b>André Carvalho</b> <span className='prof'>(Arquiteto e Urbanista/RJ)</span>  
+                            <b> Patti Anahory</b> <span className='prof'>(Arquiteta, Cabo Verde)</span></p>
                         
-                        <p><span>MEDIAÇÃO</span> <br /> 
-                            <b>Tania Queiroz</b> <span>(Organização/RJ)</span></p>
+                        <p><span>MEDIADORA</span> <br /> 
+                            <b>Tania Queiroz</b> <span className='prof'>(Organização/RJ)</span></p>
                     </div>
 
                 </div>
