@@ -85,7 +85,7 @@ const Contato = () => {
                         aos distintivos de gênero, classe e etnicidade.</p>
 
                     <p><span>PALESTRANTES</span> <br /> 
-                        <b>Bárbara Copque</b> <span className='prof'>(Artista/RJ)</span>, <b>Cadu</b> <span className='prof'>(Artista e Professor/RJ)</span> <br /> <b>Joice Berth</b> <span className='prof'>(Arquiteta, Urbanista e Escritora/SP)</span> </p>
+                        <b>Bárbara Copque</b> <span className='prof'>(Artista/RJ)</span> <b>Cadu</b> <span className='prof'>(Artista e Professor/RJ)</span> <br /> <b>Joice Berth</b> <span className='prof'>(Arquiteta, Urbanista e Escritora/SP)</span> </p>
             
                     <p><span>MEDIADOR</span> <br />
                         <b>João Paulo Quintella</b> <span className='prof'>(Curador de Arte/RJ)</span></p>
@@ -102,7 +102,7 @@ const Contato = () => {
                 
                     <h2 className='blue'> 4 MARÇO </h2>
                 
-                    <p><b>17h às 20h - Habitação social</b></p>
+                    <p><b>17h às 20h - Habitação Social</b></p>
 
                     <p>As desigualdades sociais marcam a ocupação dos espaços urbanos. Com isso, as tarefas da arquitetura tornam-se necessárias 
                         na solução de questões básicas da moradia. Porém, iniciativas, muitas vezes, destinadas ao lucro criam segregações ainda 
@@ -111,7 +111,7 @@ const Contato = () => {
                         De que modo equacionar o direito à cidade com interesses políticos especulativos na compreensão de soluções já existentes, 
                         advindas dos próprios grupos segregados?</p>
 
-                    <p><span>PALESTRANTES</span> <br /> <b>Maurício Hora</b> <span className='prof'>(Artista/RJ)</span>, <b>Raquel Rolnik</b> <span className='prof'>(Arquiteta e Urbanista/SP)</span> <br /> 
+                    <p><span>PALESTRANTES</span> <br /> <b>Maurício Hora</b> <span className='prof'>(Artista/RJ)</span> <b>Raquel Rolnik</b> <span className='prof'>(Arquiteta e Urbanista/SP)</span> <br /> 
                     <b>William Bittar</b> <span className='prof'>(Arquiteto e Professor/RJ)</span> </p>
                     <p><span>MEDIADORA</span> <br /> <b>Patricia Oliveira</b> <span className='prof'>(Arquiteta/RJ)</span></p>
 
@@ -127,17 +127,17 @@ const Contato = () => {
                 
                     <h2 className='red'> 5 MARÇO </h2>
                 
-                    <p><b>17h às 20h - Arquitetura e alteridades</b></p>
+                    <p><b>17h às 20h - Arquitetura e Alteridades</b></p>
                     
                     <p>Pobreza, subdesenvolvimento, etnicidade são interseções que se apresentam ao tratarmos dos modos de habitar. 
                         Sempre houve um intervalo, um abismo entre desenhar, projetar, construir e os usos da casa com suas tradições ancestrais. 
                         O encontro entre arquitetura e sonho, arquitetura e reza, arquitetura e natureza tornou-se, cada vez mais, fundamental. </p>
 
                     <p><span>PALESTRANTES</span> <br />
-                        <b>Gabriela Gaia</b> <span className='prof'>(Arquiteta/BA)</span>, <b>Sallisa Rosa</b> <span className='prof'>(Artista/RJ)</span> </p>
+                        <b>Gabriela Gaia</b> <span className='prof'>(Arquiteta/BA)</span> <b>Sallisa Rosa</b> <span className='prof'>(Artista/RJ)</span> </p>
                     
                     <p><span>MEDIADOR</span> <br /> 
-                        <b>Marcelo Campos</b> <span className='prof'>(Curador de Arte do Imersões/RJ)</span></p>
+                        <b>Marcelo Campos</b> <span className='prof'>(Curador de Arte/RJ)</span></p>
 
                 </div>
 
