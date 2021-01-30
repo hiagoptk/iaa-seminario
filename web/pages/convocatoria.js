@@ -14,7 +14,7 @@ const Convocatory = () => {
               <title>Seminário Imersões</title>
               <link rel="shortcut icon" type="image/x-icon" href='/images/favicon.ico' />
             </Head>
-            
+             
             <Navbar />
                 
             <div className='main'id='convocatory'>
@@ -24,7 +24,7 @@ const Convocatory = () => {
                 </div> 
                 
                 <div className='box' >
-                    <p>A presente chamada propõe a seleção de apresentações em vídeo de até 4’ 59” (quatro minutos de cinquenta e nove segundos)
+                    <p>A presente chamada propõe a seleção de apresentações em vídeo de até 4’59” (quatro minutos de cinquenta e nove segundos)
                        de duração com vivências, reflexões, impressões, práticas artísticas, urbanísticas e arquitetônicas que possam contribuir 
                        para as discussões empreendidas pelo <b>Seminário Imersões: arte e arquitetura</b>, proporcionando outras interfaces ao ampliar o 
                        debate para além das falas das (dos) palestrantes. Interessa ao projeto apresentar experiências, oriundas do meio acadêmico, 
