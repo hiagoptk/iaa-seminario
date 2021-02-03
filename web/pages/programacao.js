@@ -23,7 +23,7 @@ const Contato = () => {
                 
                 <div className='box' id='topoPrograma' >
                    
-                   <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para libras.<br />
+                   <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para Libras.<br />
                       Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita <h3 className='red'>AQUI</h3></p>
                 </div>
 
