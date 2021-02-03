@@ -7,7 +7,7 @@ function BannerPrograma() {
     return (
         <Image 
         src='/images/bannerPrograma.png'
-        alt='Imersões * Programações'
+        alt='Imersões * Programação'
         width={1849}
         height={295}
         layout='responsive'
