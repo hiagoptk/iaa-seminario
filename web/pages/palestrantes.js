@@ -232,6 +232,30 @@ const Contato = () => {
                     </div>
 
                 </div>
+    
+                    <div className='separa blue'> 
+                 <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
+                </div>
+
+
+                <div className='box boxPalestrante'>  
+                
+                    <h2 className='red'> MAURÍCIO HORA </h2>
+                    
+                    <div className='picTxt'>
+                        
+                       
+                    
+                        <p>
+                            <div id='profilePic'>oi</div>
+                            é fotógrafo quilombola do Quilombo Pedra do Sal e líder comunitário da favela Morro da Providência, nascido no Rio de Janeiro.  A história de vida de Maurício foi retratada no livro “Morro da Favela”, ilustrado por André Diniz e publicado em 5 países. Realizou e/ou participou de diversos projetos e exposições, entre eles “Favelité”, na estação de metrô de Louxebourg (Paris/FR, 2005), Voyageurs festival internacional du livre & du film Saint-malo (França, 2014), “Morro da Favela”, na Casa Pau -Brasil (Lisboa, 2020) e "Casa Carioca", no Museu de Arte do Rio - MAR (Rio, 2020).
+                            <br />
+                            Maurício tem grande inserção em diversos veículos de comunicação e multimídia cabendo destacar o artigo, escrito em parceria com a urbanista Theresa Williamson,  para o jornal americano “New York Times” sobre as remoções de moradores nas favelas cariocas durante as obras para as Olimpíadas, entrevista para o site Reuters e ainda aparições em filmes como “Casas Marcadas (Marked Homes)” e “5x Pacificação” entre outros.
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div className='separa blue'> 
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
@@ -240,7 +264,7 @@ const Contato = () => {
              
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> PATRICIA OLIVEIRA </h2>
+                    <h2 className='red'> PATRÍCIA OLIVEIRA </h2>
                     
                     <div className='picTxt'>
                         
