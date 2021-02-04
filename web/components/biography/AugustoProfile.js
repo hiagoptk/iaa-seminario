@@ -5,7 +5,7 @@ import Image from 'next/image';
 const AugustoProfile = () => {
     
     return (
-        <Ima5555555ge 
+        <Image 
             src='/images/01_Augusto.png'
             alt='Imersões * Palestrante'
             width={502}
