@@ -54,8 +54,9 @@ const Contato = () => {
                     <div className='picTxt'>
                     
                         <p>
-                            <AndreProfile />
-                            
+                            <div id='profilePic'>
+                                <AndreProfile />
+                            </div>
                             É arquiteto e urbanista; doutor e mestre em Arquitetura pelo PROARQ/FAU/UFRJ; especialista em sociologia 
                             urbana pela IFCH/UERJ; professor adjunto do Departamento de Arquitetura e Urbanismo da ESDI/UERJ; professor 
                             do Programa de Pós-Graduação em Design – PPDESDI/UERJ; e vice-diretor da Escola Superior de Desenho Industrial 
