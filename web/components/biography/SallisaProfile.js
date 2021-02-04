@@ -6,7 +6,7 @@ const SallissaProfile = () => {
     
     return (
         <Image 
-        src='/images/15_Sallissa.png'
+        src='/images/15_Sallisa.png'
         alt='Imersões * Palestrante'
         width={502}
         height={467}
