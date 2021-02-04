@@ -413,7 +413,7 @@ nav ul li a:hover {
 
 #profilePic {
     float: left;
-    
+    boder: 1px solid black;
     margin-top: 10px;
     margin-right: 10px;
 
