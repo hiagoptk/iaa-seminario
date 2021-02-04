@@ -18,7 +18,7 @@ import MauricioProfile from '../components/biography/MauricioProfile';
 import PatriciaProfile from '../components/biography/PatríciaProfile';
 import PattiProfile from '../components/biography/PattiProfile';
 import RaquelProfile from '../components/biography/RaquelProfile';
-import SalissaProfile from '../components/biography/SallisaProfile';
+import SallissaProfile from '../components/biography/SallissaProfile';
 import TaniaProfile from '../components/biography/TaniaProfile';
 import WilliamProfile from '../components/biography/WilliamProfile';
 
