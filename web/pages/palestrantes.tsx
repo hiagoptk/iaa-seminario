@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import BannerPalestrantes from '../components/bannerPalestrantes';
 
 import Footer from '../components/Footer';
+import ProfilePic from '../components/biography/AndreProfile';
 
 
 const Contato = () => {
@@ -34,7 +35,8 @@ const Contato = () => {
                     <div className='picTxt'>
                     
                         <p>
-                            <div id='profilePic' >oi</div>
+                            <div id='profilePic'><ProfilePic  /></div>
+                            
                             é arquiteto e urbanista; doutor e mestre em Arquitetura pelo PROARQ/FAU/UFRJ; especialista em sociologia 
                             urbana pela IFCH/UERJ; professor adjunto do Departamento de Arquitetura e Urbanismo da ESDI/UERJ; professor 
                             do Programa de Pós-Graduação em Design – PPDESDI/UERJ; e vice-diretor da Escola Superior de Desenho Industrial 
@@ -300,6 +302,7 @@ const Contato = () => {
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
                 </div>
 
+
                 <div className='box boxPalestrante'>  
                 
                     <h2 className='red'> RAQUEL ROLNIK </h2>
@@ -307,13 +310,14 @@ const Contato = () => {
                     <div className='picTxt'>
                         
                         <p>
-                            <div id='profilePic'>oi</div>
+                            >
                             é urbanista e arquiteta, é professora titular da Faculdade de Arquitetura e Urbanismo da USP. Foi diretora de planejamento da Secretaria Municipal de Planejamento de São Paulo (1989-92), secretária nacional de Programas Urbanos do Ministério das Cidades (2003-07) e consultora de cidades brasileiras e latinoamericanas. Entre 2008 a 2014 foi relatora especial da ONU para o Direito à Moradia Adequada. Atuou como colunista de urbanismo da Rádio CBN-SP, Band News FM e Rádio Nacional, e do jornal Folha de S.Paulo, mantendo hoje coluna na Rádio USP, UOL e em sua página raquelrolnik. É autora, entre outros, de “A cidade e a lei: legislação, política urbana e territórios na cidade de São Paulo” (1997), “Guerra dos lugares: A colonização da terra e da moradia na era das finanças” (2016) e “Territórios em Conflito - São Paulo: espaço, história e política” (2017).
                         </p>
 
                     </div>
 
                 </div>
+
 
                 <div className='separa blue'> 
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
@@ -334,6 +338,7 @@ const Contato = () => {
                     </div>
 
                 </div>
+
 
                 <div className='separa blue'> 
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
