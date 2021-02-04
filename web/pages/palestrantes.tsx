@@ -19,7 +19,7 @@ import MauricioProfile from '../components/biography/MauricioProfile';
 import PatriciaProfile from '../components/biography/PatríciaProfile';
 import PattiProfile from '../components/biography/PattiProfile';
 import RaquelProfile from '../components/biography/RaquelProfile';
-import SallissaProfile from '../components/biography/SallissaProfile';
+import SallisaProfile from '../components/biography/SallisaProfile';
 import TaniaProfile from '../components/biography/TaniaProfile';
 import WilliamProfile from '../components/biography/WilliamProfile';
 
@@ -433,7 +433,7 @@ const Contato = () => {
                         
                         <p>
                             <div id='profilePic'>
-                                <SallissaProfile />
+                                <SallisaProfile />
                             </div>
                             É natural de Goiânia (GO), atualmente vive no Rio de Janeiro. Sua prática circula entre fotografia e vídeo, mas também passa por instalações e obras participativas, atuando com experiências intuitivas, ficção, identidade e natureza. É formada em jornalismo, mestre em criação e produção de conteúdo audiovisual.
                         </p>
