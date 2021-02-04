@@ -271,7 +271,7 @@ const Contato = () => {
                     <div className='picTxt'>
                         
                         <p>
-                            <JoiceProfile.js />
+                            <JoiceProfile />
                             É arquiteta e urbanista formada pela Universidade Nove de Julho; especialista e pesquisadora independente em direito à cidade, relações raciais e de 
                             gênero; psicanalista em formação; escritora e autora do terceiro livro da Coleção Feminismos Plurais. Participou de feiras literárias pelo Brasil, como FliP, Flup, Flica e Bienal do Livro de São Paulo e do Rio de Janeiro, com todos os livros esgotados após as respectivas mesas. Participou da curadoria da exposição “Casa Carioca” (Museu de Arte do Rio, 2020); foi jurada no Prêmio de Arquitetura do Instituto Ruy Ohtake/Akznobel, na Premiação Institutos dos Arquitetos do Brasil e do Prêmio Marie Claire/Avon para práticas contra a violência doméstica. Atualmente é colunista mensal da Revista Elle Brasil e participa da Coleção Ensaios sobre a Pandemia, da Editora Todavia, com o tema Violência de Gênero. Foi uma das homenageadas na Lavagem da Madeleine em Paris pelo coletivo Mulheres da Resistência. 
                         </p>
