@@ -5,6 +5,7 @@ import BannerPalestrantes from '../components/bannerPalestrantes';
 import Footer from '../components/Footer';
 
 import AndreProfile from '../components/biography/AndreProfile';
+import AugustoProfile from '../components/biography/AugustoProfile';
 import BarbaraProfile from '../components/biography/BarbaraProfile';
 import CaduProfile from '../components/biography/CaduProfile';
 import GabiProfile from '../components/biography/GabiProfile';
