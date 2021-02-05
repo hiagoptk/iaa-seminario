@@ -58,7 +58,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                             <h2 className='red'> ANDRÉ CARVALHO </h2>
-                            <h4 className='prof'> ARQUITETO & URBANISTA/RJ </h4>
+                            
                         </div>
                             
                         <p>
@@ -90,7 +90,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> AUGUSTO IVAN FREITAS PINHEIRO </h2>
-                            <h4 className='prof'> ARQUITETO/RJ </h4>
+                            
                         </div>
 
                         <p>
@@ -121,7 +121,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                             <h2 className='red'> BARBARA COPQUE </h2>
-                            <h4 className='prof'> ARTISTA/RJ </h4>
+                            
                         </div>
                             
                         <p>
@@ -148,7 +148,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                         <h2 className='red'> CADU </h2>
-                            <h4 className='prof'> ARTISTA & PROFESSOR/RJ </h4>
+                            
                         </div>
                             
                         <p>
@@ -176,7 +176,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                             <h2 className='red'> GABRIELA DE MATOS  </h2>
-                            <h4 className='prof'> ARQUITETA & URBANISTA/ ? </h4>
+                            
                         </div>
                             
                         <p>
@@ -204,7 +204,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                         <h2 className='red'> GABRIELA GAIA </h2>
-                            <h4 className='prof'> ARQUITETA/RJ </h4>
+                            
                         </div>
                         
                         <p>
@@ -234,7 +234,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                         <h2 className='red'> HELENA SEVERO </h2>
-                            <h4 className='prof'> DIRETORA DA CASA FRANÇA-BRASIL/RJ</h4>
+                            
                         </div>
 
                         <p>
@@ -265,7 +265,7 @@ const Contato = () => {
 
                         <div id='topoBios'>
                             <h2 className='red'> JOÃO PAULO QUINTELLA </h2>
-                            <h4 className='prof'> CURADOR DE ARTE/RJ </h4>
+                            
                         </div>
 
                         <p>                            
@@ -294,7 +294,7 @@ const Contato = () => {
 
                     <div id='topoBios'>
                         <h2 className='red'> JOCELINO PESSOA</h2>
-                        <h4 className='prof'> PRODUTOR CULTURAL/RJ </h4>
+                        
                     </div>
 
                     <p>                            
@@ -326,7 +326,7 @@ const Contato = () => {
             
                     <div id='topoBios'>
                         <h2 className='red'> JOICE BERTH </h2>
-                        <h4 className='prof'> ARQUITETA, URBANISTA & ESCRITORA/SP </h4>
+                        
                     </div>
 
                         <p>  
@@ -354,7 +354,7 @@ const Contato = () => {
                 
                         <div id='topoBios'>
                             <h2 className='red'> MARCELO CAMPOS </h2>
-                            <h4 className='prof'> CURADOR DE ARTE/SP </h4>
+                            
                         </div>
 
                         <p>
@@ -379,7 +379,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> MAURÍCIO HORA </h2>
-                            <h4 className='prof'> ARTISTA/SP </h4>
+                            
                         </div>
 
                     
@@ -407,7 +407,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> PATRÍCIA OLIVEIRA </h2>
-                            <h4 className='prof'> ARQUITETA/SP </h4>
+                            
                         </div>
     
                         <p>
@@ -431,7 +431,7 @@ const Contato = () => {
                 
                         <div id='topoBios'>
                             <h2 className='red'> PATTI ANAHORY </h2>
-                            <h4 className='prof'> ARQUITETA/Cabo Verde </h4>
+                            
                         </div>
     
                         <p> 
@@ -457,7 +457,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> RAQUEL ROLNIK </h2>
-                            <h4 className='prof'> ARQUITETA & URBANISTA/SP </h4>
+                            
                         </div>
 
                         <p>  
@@ -484,7 +484,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> SALLISA ROSA </h2>
-                            <h4 className='prof'> ARTISTA/RJ </h4>
+                            
                         </div>
 
                         <p> 
@@ -511,7 +511,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> TANIA QUEIROZ  </h2>
-                            <h4 className='prof'> ARQUITETA, ARTISTA & EDUCADORA/RJ </h4>
+                            
                         </div>
 
                         <p> 
@@ -536,7 +536,7 @@ const Contato = () => {
                         
                         <div id='topoBios'>
                             <h2 className='red'> WILLIAM BITTAR </h2>
-                            <h4 className='prof'> ARQUITETO & PROFESSOR/RJ </h4>
+                            
                         </div>
 
                         <p> 
