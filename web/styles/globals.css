@@ -415,7 +415,7 @@ nav ul li a:hover {
 #topoBios {
     display: flex;
     flex-direction: column;
-    border-bottom: solid 1px black ;
+    
 
     width: 25rem;    
     padding-bottom: 10px;
@@ -667,16 +667,13 @@ nav ul li a:hover {
         width: 95vw;
         height: 20px;
         overflow: hidden;
-        padding-left: 5px;
-    
+        padding-left: 5px; 
         margin: 10px 0;
     }
     
     .boxItem p b {
         font-size: 0.95rem;
     }
-
-
 
     #profilePic {
         min-width: 150px;
@@ -695,29 +692,21 @@ nav ul li a:hover {
     align-items: center;
 
     height: auto;
-
     }
 
     #topoBios {
         display: flex;
         flex-direction: column;
-        border-bottom: solid 1px black ;
-
-        width: 90VW;
         
+        width: 90VW;
         padding: 0 0 10px 5px;
         margin-bottom: 20px;
-
     }
 
     #topoBios h2 {
         font-family: 'Bonoci';
         font-size: large;
         margin-bottom: 5px;
-    }
-
-    #topoBios h4 {
-        font-size: small;
     }
 
     #bios p {
