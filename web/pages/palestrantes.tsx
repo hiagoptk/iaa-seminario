@@ -38,7 +38,7 @@ const Contato = () => {
                 
             <div className='main' id='program'>
                 
-                <div className='boxBannerPrograma' >
+                <div className='box boxBannerPrograma' >
                     <BannerPalestrantes />
                 </div> 
                 
@@ -47,16 +47,21 @@ const Contato = () => {
                 </div>
 
 
-                <div className='box boxPalestrante'>  
-                
-                    <h2 className='red'> ANDRÉ CARVALHO </h2>
+                <div className='boxPalestrante'>  
+
+
+                    <div id='profilePic'>
+                        <AndreProfile />
+                    </div>  
                     
-                    <div className='picTxt'>
-                    
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                            <h2 className='red'> ANDRÉ CARVALHO </h2>
+                            <h4 className='prof'> ARQUITETO & URBANISTA/RJ </h4>
+                        </div>
+                            
                         <p>
-                            <div id='profilePic'>
-                                <AndreProfile />
-                            </div>
                             É arquiteto e urbanista; doutor e mestre em Arquitetura pelo PROARQ/FAU/UFRJ; especialista em sociologia 
                             urbana pela IFCH/UERJ; professor adjunto do Departamento de Arquitetura e Urbanismo da ESDI/UERJ; professor 
                             do Programa de Pós-Graduação em Design – PPDESDI/UERJ; e vice-diretor da Escola Superior de Desenho Industrial 
@@ -74,17 +79,21 @@ const Contato = () => {
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
                 </div>
 
-                <div className='box boxPalestrante'>  
+                <div className='boxPalestrante'>  
                 
-                    <h2 className='red'> AUGUSTO IVAN FREITAS PINHEIRO </h2>
+                    <div id='profilePic'>
+                        <AugustoProfile />
+                    </div>
                     
-                    <div className='picTxt'>
-                       
+                    
+                    <div id='bios'>
+                        
+                        <div id='topoBios'>
+                            <h2 className='red'> AUGUSTO IVAN FREITAS PINHEIRO </h2>
+                            <h4 className='prof'> ARQUITETO/RJ </h4>
+                        </div>
+
                         <p>
-                            <div id='profilePic'>
-                                <AugustoProfile />
-                            </div>
-                            
                             É arquiteto e estudioso em urbanismo e preservação do patrimônio cultural da cidade do Rio de Janeiro. 
                             Publicou diversos livros, entre eles: "Encantos do Rio", "Barra da Tijuca: A construção do lugar", 
                             "Rua do Lavradio", "Lagoa Rodrigo de Freitas", "Porto do Rio: Construindo a Modernidade" e "Rio: 360°". 
@@ -103,15 +112,19 @@ const Contato = () => {
 
              
                 <div className='box boxPalestrante'>  
-                
-                    <h2 className='red'> BARBARA COPQUE </h2>
-                    
-                    <div className='picTxt'>
-                        
-                        <p>
-                            <div id='profilePic'>
+                  
+                    <div id='profilePic'>
                                 <BarbaraProfile />
-                            </div>
+                   </div>
+    
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                            <h2 className='red'> BARBARA COPQUE </h2>
+                            <h4 className='prof'> ARTISTA/RJ </h4>
+                        </div>
+                            
+                        <p>
                             É fotógrafa desde a infância, é pós-doutora em Antropologia e utiliza a fotografia em seus estudos sobre violência 
                             institucional. Participa do coletivo Negras[fotos]grafias, já publicou livros e artigos, realizou ensaios fotográficos, 
                             vídeos etnográficos e integrou exposições individuais e coletivas. Atualmente é professora adjunta na UERJ e coordena o 
@@ -128,14 +141,17 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> CADU </h2>
-                    
-                    <div className='picTxt'>
-                       
+                    <div id='profilePic'>
+                        <CaduProfile />
+                    </div>
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                        <h2 className='red'> CADU </h2>
+                            <h4 className='prof'> ARTISTA & PROFESSOR/RJ </h4>
+                        </div>
+                            
                         <p>
-                            <div id='profilePic'>
-                                <CaduProfile />
-                            </div>
                             É artista plástico e professor do Departamento de Artes e Design da PUC-Rio, onde também coordena o Laboratório Interdisciplinar em 
                             Natureza, Design e Arte - LINDA. Sua prática é marcada por uma abordagem transdisciplinar, com performances, instalações, desenhos, 
                             pinturas, objetos, esculturas, vídeos, fotografias e colaborações em produções teatrais. Suas obras são influenciadas por sistemas, 
@@ -153,15 +169,17 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> GABRIELA DE MATOS  </h2>
-                    
-                    <div className='picTxt'>
-                        
-                        <p>
-                            <div id='profilePic'>
-                                <GabiProfile />
-                            </div>
+                     <div id='profilePic'>
+                        <GabiProfile />
+                    </div>
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                            <h2 className='red'> GABRIELA DE MATOS  </h2>
+                            <h4 className='prof'> ARQUITETA & URBANISTA/ ? </h4>
+                        </div>
                             
+                        <p>
                             É arquiteta e urbanista, graduada pela Faculdade de Arquitetura e Urbanismo da PUC Minas, em 2010. Premiada como Arquiteta do Ano 2020 pelo IAB RJ. 
                             Em 2016, especializou-se em Sustentabilidade e Gestão do Ambiente Construído pela UFMG. Mestranda do Diversitas - Núcleo de Estudos das Diversidades, 
                             Intolerâncias e Conflitos da Faculdade de Filosofia, Letras e Ciências Humanas (FFLCH) da USP. É fundadora do projeto Arquitetas Negras que 
@@ -179,14 +197,17 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> GABRIELA GAIA </h2>
-                    
-                    <div className='picTxt'>
+                    <div id='profilePic'>
+                        <GabriProfile />
+                    </div>
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                        <h2 className='red'> GABRIELA GAIA </h2>
+                            <h4 className='prof'> ARQUITETA/RJ </h4>
+                        </div>
                         
                         <p>
-                            <div id='profilePic'>
-                                <GabriProfile />
-                            </div>
                             É professora da Faculdade de Arquitetura da UFBA; arquiteta e urbanista formada pela UFES; mestre e doutora pelo PPGPAU/FAUFBA, onde integra o 
                             Grupo de Pesquisa Lugar Comum (PPGAU/FAUFBA) e coordena o Grupo de Estudos Corpo, Discurso e Território. Seus trabalhos versam sobre as narrativas, 
                             histórias, memórias e epistemologias produzidas sobre a cidade e seus apagamentos, aproximando-os do debate étnico-racial e de gênero. Em 2017, 
@@ -205,15 +226,18 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> HELENA SEVERO </h2>
-                    
-                    <div className='picTxt'>
-                    
+                
+                     <div id='profilePic'>
+                        <HelenaProfile />
+                    </div>
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                        <h2 className='red'> HELENA SEVERO </h2>
+                            <h4 className='prof'> DIRETORA DA CASA FRANÇA-BRASIL/RJ</h4>
+                        </div>
+
                         <p>
-                            <div id='profilePic'>
-                                <HelenaProfile />
-                            </div>
-                            
                             É advogada (PUC-Rio) fez mestrado em Ciências Sociais no Instituto de Filosofia e Ciências Sociais da UFRJ. Ocupou diversos cargos de gestão em equipamentos públicos, 
                             entre eles o Museu da República e a Fundação Biblioteca Nacional, e atualmente é diretora da Casa França-Brasil. Foi secretária de Cultura do Rio na década de 1990, 
                             quando criou e implantou projetos como a Rede Municipal de Teatros, o Sistema Integrado de Bibliotecas Comunitárias, O Museu da Cidade, o Centro de Artes Hélio Oiticica, 
@@ -233,15 +257,18 @@ const Contato = () => {
              
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> JOÃO PAULO QUINTELLA </h2>
+                    <div id='profilePic'>
+                        <JoaoProfile />
+                    </div>
                     
-                    <div className='picTxt'>
-                        
-                        <p> 
-                            <div id='profilePic'>
-                                <JoaoProfile />
-                            </div>
-                            
+                    <div id="bios">
+
+                        <div id='topoBios'>
+                            <h2 className='red'> JOÃO PAULO QUINTELLA </h2>
+                            <h4 className='prof'> CURADOR DE ARTE/RJ </h4>
+                        </div>
+
+                        <p>                            
                             É doutorando em História da Arte e Arquitetura pela PUC-Rio; mestre em processos artísticos contemporâneos pela UERJ; curador, entre outros, dos projetos 
                             Permanências e Destruições (RJ), Remanso (Funarte, Brasília), Céu Aberto (Vila Autódromo- RJ), e Suposto Sul - Suposto Norte, em parceria com 
                             Michelle Sommer (Cafuné, Berlim). Pesquisa as relações entre arte, espaço e experiência e, atualmente, coordena o programa de intercâmbios culturais da 
@@ -259,27 +286,31 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> JOCELINO PESSOA </h2>
-                    
-                    <div className='picTxt'>
-                    
-                        <p>
-                            <div id='profilePic'>
-                                <JocelinoProfile />
-                            </div>
-                            É produtor cultural com foco em artes visuais e especialista em cultura e educação pela FLACSO Brasil. Morador da Zona Oeste do Rio, desenvolve exposições, 
-                            projetos educativos e publicações vinculados a instituições culturais públicas e privadas. Iniciou sua carreira no Centro de Artes Visuais da Funarte, em 2006, 
-                            onde foi produtor executivo do Programa Rede Nacional Artes Visuais e colaborou na primeira edição do Prêmio Marcantonio Vilaça. 
-                            No Museu Bispo do Rosário Arte Contemporânea, instituição da qual passou a fazer parte em 2008, idealizou e coordenou, entre outros projetos, o 
-                            I Encontro de Agentes Culturais da Zona Oeste e a primeira edição do Programa Casa B Residência Artística. Ainda no Museu, organizou importantes 
-                            exposições nacionais e internacionais e foi curador assistente da mostra “Arthur Bispo do Rosário: a poesia do fio”, realizada no âmbito do Festival Europalia (Bruxelas/BE). 
-                            Como profissional independente, produziu, entre outras, a mostra “Narrativas Poéticas - Coleção Santander Brasil” e foi contemplado no Rumos - Itaú Cultural (2018-2019) 
-                            com o projeto “Brígida”, de organização da obra audiovisual da artista Brígida Baltar. Atualmente também é assessor de artes visuais do Sesc Nacional.
-                        </p>
+                <div id='profilePic'>
+                    <JocelinoProfile />
+                </div>
+                
+                <div id="bios">
 
+                    <div id='topoBios'>
+                        <h2 className='red'> JOCELINO PESSOA</h2>
+                        <h4 className='prof'> PRODUTOR CULTURAL/RJ </h4>
                     </div>
 
+                    <p>                            
+                        É produtor cultural com foco em artes visuais e especialista em cultura e educação pela FLACSO Brasil. Morador da Zona Oeste do Rio, desenvolve exposições, 
+                        projetos educativos e publicações vinculados a instituições culturais públicas e privadas. Iniciou sua carreira no Centro de Artes Visuais da Funarte, em 2006, 
+                        onde foi produtor executivo do Programa Rede Nacional Artes Visuais e colaborou na primeira edição do Prêmio Marcantonio Vilaça. 
+                        No Museu Bispo do Rosário Arte Contemporânea, instituição da qual passou a fazer parte em 2008, idealizou e coordenou, entre outros projetos, o 
+                        I Encontro de Agentes Culturais da Zona Oeste e a primeira edição do Programa Casa B Residência Artística. Ainda no Museu, organizou importantes 
+                        exposições nacionais e internacionais e foi curador assistente da mostra “Arthur Bispo do Rosário: a poesia do fio”, realizada no âmbito do Festival Europalia (Bruxelas/BE). 
+                        Como profissional independente, produziu, entre outras, a mostra “Narrativas Poéticas - Coleção Santander Brasil” e foi contemplado no Rumos - Itaú Cultural (2018-2019) 
+                        com o projeto “Brígida”, de organização da obra audiovisual da artista Brígida Baltar. Atualmente também é assessor de artes visuais do Sesc Nacional.
+                    </p>
+
                 </div>
+
+            </div>
 
                 <div className='separa blue'> 
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
@@ -287,14 +318,18 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> JOICE BERTH </h2>
+                    <div id='profilePic'>
+                        <JoiceProfile />
+                    </div>
                     
-                    <div className='picTxt'>
-                        
-                        <p>
-                            <div id='profilePic'>
-                                <JoiceProfile />
-                            </div>
+                    <div id="bios">
+            
+                    <div id='topoBios'>
+                        <h2 className='red'> JOICE BERTH </h2>
+                        <h4 className='prof'> ARQUITETA, URBANISTA & ESCRITORA/SP </h4>
+                    </div>
+
+                        <p>  
                             É arquiteta e urbanista formada pela Universidade Nove de Julho; especialista e pesquisadora independente em direito à cidade, relações raciais e de 
                             gênero; psicanalista em formação; escritora e autora do terceiro livro da Coleção Feminismos Plurais. Participou de feiras literárias pelo Brasil, como FliP, Flup, Flica e Bienal do Livro de São Paulo e do Rio de Janeiro, com todos os livros esgotados após as respectivas mesas. Participou da curadoria da exposição “Casa Carioca” (Museu de Arte do Rio, 2020); foi jurada no Prêmio de Arquitetura do Instituto Ruy Ohtake/Akznobel, na Premiação Institutos dos Arquitetos do Brasil e do Prêmio Marie Claire/Avon para práticas contra a violência doméstica. Atualmente é colunista mensal da Revista Elle Brasil e participa da Coleção Ensaios sobre a Pandemia, da Editora Todavia, com o tema Violência de Gênero. Foi uma das homenageadas na Lavagem da Madeleine em Paris pelo coletivo Mulheres da Resistência. 
                         </p>
@@ -308,18 +343,21 @@ const Contato = () => {
                 </div>
 
 
-                <div className='box boxPalestrante'>  
+
+                    <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> MARCELO CAMPOS </h2>
-                    
-                    <div className='picTxt'>
+                        <div id='profilePic'>
+                            <MarceloProfile />
+                        </div>
                         
-                       
-                    
+                        <div id="bios">
+                
+                        <div id='topoBios'>
+                            <h2 className='red'> MARCELO CAMPOS </h2>
+                            <h4 className='prof'> CURADOR DE ARTE/SP </h4>
+                        </div>
+
                         <p>
-                            <div id='profilePic'>
-                                <MarceloProfile />
-                            </div>
                             Nasceu, vive e trabalha no Rio de Janeiro. É professor associado do Departamento de Teoria e História da Arte do Instituto de Artes da UERJ; curador-chefe do Museu de Arte do Rio; e doutor em artes visuais pelo PPGAV da Escola de Belas Artes/ UFRJ. Desenvolveu tese de doutorado sobre o conceito de brasilidade na arte contemporânea e possui textos sobre arte brasileira publicados em periódicos e catálogos nacionais e internacionais. Curador das exposições “Casa Carioca”, em co-curadoria com Joice Berth (Museu de Arte do Rio - MAR, 2019); “À Nordeste”, com Clarissa Diniz e Bitu Cassundé (SESC 24 de maio, 2019); “O Rio do samba: resistência e reinvenção”, com Evandro Salles, Nei Lopes e Clarissa Diniz (Museu de Arte do Rio - MAR, 2018); “Bispo do Rosário, um canto, dois sertões” (Museu Bispo do Rosário de Arte Contemporânea, 2015); entre outras. É também autor do livro “Escultura Contemporânea no Brasil: reflexões em dez percursos” (Editora Caramurê, 2016).
                         </p>
 
@@ -334,16 +372,18 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> MAURÍCIO HORA </h2>
-                    
-                    <div className='picTxt'>
+                       <div id='profilePic'>
+                            <MauricioProfile />
+                        </div>
+                        <div id="bios">
                         
-                       
+                        <div id='topoBios'>
+                            <h2 className='red'> MAURÍCIO HORA </h2>
+                            <h4 className='prof'> ARTISTA/SP </h4>
+                        </div>
+
                     
                         <p>
-                            <div id='profilePic'>
-                                <MauricioProfile />
-                            </div>
                             É fotógrafo quilombola do Quilombo Pedra do Sal e líder comunitário da favela Morro da Providência, nascido no Rio de Janeiro.  A história de vida de Maurício foi retratada no livro “Morro da Favela”, ilustrado por André Diniz e publicado em 5 países. Realizou e/ou participou de diversos projetos e exposições, entre eles “Favelité”, na estação de metrô de Louxebourg (Paris/FR, 2005), Voyageurs festival internacional du livre & du film Saint-malo (França, 2014), “Morro da Favela”, na Casa Pau -Brasil (Lisboa, 2020) e "Casa Carioca", no Museu de Arte do Rio - MAR (Rio, 2020).
                             <br />
                             Maurício tem grande inserção em diversos veículos de comunicação e multimídia cabendo destacar o artigo, escrito em parceria com a urbanista Theresa Williamson,  para o jornal americano “New York Times” sobre as remoções de moradores nas favelas cariocas durante as obras para as Olimpíadas, entrevista para o site Reuters e ainda aparições em filmes como “Casas Marcadas (Marked Homes)” e “5x Pacificação” entre outros.
@@ -360,14 +400,17 @@ const Contato = () => {
              
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> PATRÍCIA OLIVEIRA </h2>
-                    
-                    <div className='picTxt'>
+                     <div id='profilePic'>
+                        <PatriciaProfile />
+                    </div>
+                    <div id="bios">
                         
+                        <div id='topoBios'>
+                            <h2 className='red'> PATRÍCIA OLIVEIRA </h2>
+                            <h4 className='prof'> ARQUITETA/SP </h4>
+                        </div>
+    
                         <p>
-                            <div id='profilePic'>
-                                <PatriciaProfile />
-                            </div>
                             É graduada em arquitetura e urbanismo pelo Centro Universitário Augusto Motta (2017), tem experiência na área de arquitetura e urbanismo com ênfase em antropologia urbana e habitação de interesse social, atuando principalmente nos seguintes temas: arquitetura popular, direito à cidade, patrimônio cultural, favelas e periferias urbanas. Identifica-se como A Favelada Arquiteta e desenvolve o projeto Casa da Lala em Manguinhos, Zona Norte do Rio de Janeiro.
                         </p>
 
@@ -380,16 +423,18 @@ const Contato = () => {
                 </div>
 
                 <div className='box boxPalestrante'>  
+
+                    <div id='profilePic'>
+                        <PattiProfile />
+                    </div>
+                    <div id="bios">
                 
-                    <h2 className='red'> PATTI ANAHORY </h2>
-                    
-                    <div className='picTxt'>
-                        
-                        <p>
-                            <div id='profilePic'>
-                                <PattiProfile />
-                            </div>
-                            
+                        <div id='topoBios'>
+                            <h2 className='red'> PATTI ANAHORY </h2>
+                            <h4 className='prof'> ARQUITETA/Cabo Verde </h4>
+                        </div>
+    
+                        <p> 
                             É arquiteta pela Boston Architectural College e mestre em Arquitetura pela Princeton University, ambas instituições norte-americanas. Em 2000, recebeu o Rotch Traveling Scholarship, tornando-se a segunda mulher a ser premiada em 113 anos de concurso e a primeira laureada a escolher viajar para a África Subsaariana. Co-fundou o coletivo de arte interdisciplinar XU: Collective, que atualmente é um ateliê profissional que propõe uma compreensão crítica das dinâmicas urbanas, arquitetura e estudos intermídia. Participa este ano da 17ª Exposição de Arquitetura da La Biennale di Venezia e foi convidada para ser curadora do único evento de arquitetura no projeto África 2020.
                         </p>
 
@@ -404,14 +449,18 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> RAQUEL ROLNIK </h2>
-                    
-                    <div className='picTxt'>
+                    <div id='profilePic'>
+                        <RaquelProfile />
+                    </div>
+
+                   <div id="bios">
                         
-                        <p>
-                            <div id='profilePic'>
-                                <RaquelProfile />
-                            </div>
+                        <div id='topoBios'>
+                            <h2 className='red'> RAQUEL ROLNIK </h2>
+                            <h4 className='prof'> ARQUITETA & URBANISTA/SP </h4>
+                        </div>
+
+                        <p>  
                            É urbanista e arquiteta, é professora titular da Faculdade de Arquitetura e Urbanismo da USP. Foi diretora de planejamento da Secretaria Municipal de Planejamento de São Paulo (1989-92), secretária nacional de Programas Urbanos do Ministério das Cidades (2003-07) e consultora de cidades brasileiras e latinoamericanas. Entre 2008 a 2014 foi relatora especial da ONU para o Direito à Moradia Adequada. Atuou como colunista de urbanismo da Rádio CBN-SP, Band News FM e Rádio Nacional, e do jornal Folha de S.Paulo, mantendo hoje coluna na Rádio USP, UOL e em sua página raquelrolnik. É autora, entre outros, de “A cidade e a lei: legislação, política urbana e territórios na cidade de São Paulo” (1997), “Guerra dos lugares: A colonização da terra e da moradia na era das finanças” (2016) e “Territórios em Conflito - São Paulo: espaço, história e política” (2017).
                         </p>
 
@@ -426,15 +475,19 @@ const Contato = () => {
 
 
                 <div className='box boxPalestrante'>  
-                
-                    <h2 className='red'> SALLISA ROSA </h2>
-                    
-                    <div className='picTxt'>
+             
+                    <div id='profilePic'>
+                        <SallisaProfile />
+                    </div>
+
+                    <div id="bios">
                         
-                        <p>
-                            <div id='profilePic'>
-                                <SallisaProfile />
-                            </div>
+                        <div id='topoBios'>
+                            <h2 className='red'> SALLISA ROSA </h2>
+                            <h4 className='prof'> ARTISTA/RJ </h4>
+                        </div>
+
+                        <p> 
                             É natural de Goiânia (GO), atualmente vive no Rio de Janeiro. Sua prática circula entre fotografia e vídeo, mas também passa por instalações e obras participativas, atuando com experiências intuitivas, ficção, identidade e natureza. É formada em jornalismo, mestre em criação e produção de conteúdo audiovisual.
                         </p>
 
@@ -449,15 +502,19 @@ const Contato = () => {
 
              
                 <div className='box boxPalestrante'>  
-                
-                    <h2 className='red'> TANIA QUEIROZ  </h2>
-                    
-                    <div className='picTxt'>
+
+                    <div id='profilePic'>
+                        <TaniaProfile />
+                    </div>
+
+                    <div id="bios">
                         
-                        <p>
-                            <div id='profilePic'>
-                                <TaniaProfile />
-                            </div>
+                        <div id='topoBios'>
+                            <h2 className='red'> TANIA QUEIROZ  </h2>
+                            <h4 className='prof'> ARQUITETA, ARTISTA & EDUCADORA/RJ </h4>
+                        </div>
+
+                        <p> 
                             É artista, arquiteta e educadora, vive e trabalha no Rio de Janeiro. Doutoranda e mestre em arte e cultura contemporânea pela UERJ, foi coordenadora da Casa França-Brasil (2016-2017); coordenadora de ensino da Escola de Artes Visuais do Parque Lage (2007-2016); professora substituta no Instituto de Artes da UERJ (2005-2007); e, desde 2010, é professora de artes da Secretaria de Educação do Estado do Rio de Janeiro. Participa desde 1992 como coordenadora e educadora em programas educativos de instituições como Paço Imperial, Casa França-Brasil, Museu do Açude, Casa de Cultura Laura Alvim, além de ser consultora em mediação cultural no SESC Departamento Nacional desde 2019. É editora executiva da Revista Concinnitas, do Instituto de Artes da UERJ. Coordenou a publicação dos Cadernos EAV entre 2009 a 2013; publicou em 2014 “O mundo é mais do que isso: mediação e a complexa rede de significações da arte e do mundo”, com Maria Tornaghi e Cristina de Pádula. Coordena a Escola Sem Sítio desde 2017.
                         </p>
 
@@ -471,14 +528,18 @@ const Contato = () => {
 
                 <div className='box boxPalestrante'>  
                 
-                    <h2 className='red'> WILLIAM BITTAR </h2>
-                    
-                    <div className='picTxt'>
-                    
-                        <p>
-                            <div id='profilePic'>
-                                <WilliamProfile />
-                            </div>
+                    <div id='profilePic'>
+                        <WilliamProfile />
+                    </div>
+
+                    <div id="bios">
+                        
+                        <div id='topoBios'>
+                            <h2 className='red'> WILLIAM BITTAR </h2>
+                            <h4 className='prof'> ARQUITETO & PROFESSOR/RJ </h4>
+                        </div>
+
+                        <p> 
                             É arquiteto graduado pela FAU-UFRJ (1978) e livre docente em arquitetura (1996), lecionou desde 1980 em faculdades de arquitetura públicas e particulares no Rio de Janeiro, como a própria FAU-UFRJ, por 37 anos, no Departamento de História e Teoria. Autor de pesquisas e projetos de restauração e revitalização do patrimônio cultural, coordenou equipe multidisciplinar para a realização do Inventário Nacional de Bens Imóveis – Sítios Urbanos (Paraty, 2002). É consultor, palestrante, coautor de livros e de diversos artigos e entrevistas em periódicos, com participação regular em congressos e seminários sobre Patrimônio Cultural e Arquitetura no Brasil.
                         </p>
 
