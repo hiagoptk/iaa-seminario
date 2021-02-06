@@ -38,7 +38,7 @@ const Contato = () => {
                 
             <div className='main' id='program'>
                 
-                <div className='box boxBannerPrograma' >
+                <div className=' boxBannerPrograma' >
                     <BannerPalestrantes />
                 </div> 
                 
