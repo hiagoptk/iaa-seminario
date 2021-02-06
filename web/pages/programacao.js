@@ -22,9 +22,9 @@ const Contato = () => {
                 </div> 
                 
                 <div className='box' id='topoPrograma' >
-                   
-                   <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para Libras.
-                      Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita <span><a href='https://docs.google.com/forms/d/1qF_8qfsI5sj6Z6Bu9Xr2czZNMzVhAExqQS7VtdV9QZE/viewform?edit_requested=true'>AQUI</a></span></p>
+                  <div className='box> 
+                   <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para Libras. Os participantes previamente inscritos receberão certificado. Faça sua inscrição gratuita </p> 
+                   <h3 className='' ><a  href='https://docs.google.com/forms/d/1qF_8qfsI5sj6Z6Bu9Xr2czZNMzVhAExqQS7VtdV9QZE/viewform?edit_requested=true'>AQUI</a></h3>
                 </div>
 
                 
