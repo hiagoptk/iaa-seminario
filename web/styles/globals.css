@@ -348,6 +348,13 @@ nav ul li a:hover {
     color: var(--cor-link);
 }
 
+.red-link {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+    font-size: large;
+    
+}
+
 .blue  {
     color: var(--cor-button);
 }
