@@ -308,7 +308,7 @@ nav ul li a:hover {
 
 #topoPrograma{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: initial;
     justify-content: center;
    
