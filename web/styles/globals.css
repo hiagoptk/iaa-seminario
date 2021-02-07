@@ -324,6 +324,7 @@ nav ul li a:hover {
 #topoPrograma p a {
     font-family: 'Bonoci';
     color: var(--cor-link);
+    text-decoration: none;
 
 }
 
