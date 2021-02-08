@@ -47,7 +47,7 @@ const Contato = () => {
                 </div>
 
 
-                <div className='boxPalestrante'>  
+                <div className='box boxPalestrante'>  
 
 
                     <div id='profilePic'>
@@ -79,7 +79,7 @@ const Contato = () => {
                  <p> * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * </p>
                 </div>
 
-                <div className='boxPalestrante'>  
+                <div className='box boxPalestrante'>  
                 
                     <div id='profilePic'>
                         <AugustoProfile />
