@@ -715,14 +715,12 @@ nav ul li a:hover {
         flex-direction: column;
         
         width: 90VW;
-        padding: 0 0 10px 5px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     #topoBios h2 {
         font-family: 'Bonoci';
         font-size: large;
-        margin-bottom: 5px;
     }
 
     #profilePic {
