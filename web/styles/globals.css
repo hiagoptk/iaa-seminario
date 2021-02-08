@@ -424,6 +424,14 @@ nav ul li a:hover {
 
 }
 
+#bios {
+    border: solid 1px black;   
+}
+
+#bios p {
+    text-align: left ;
+}
+
 #topoBios {
     display: flex;
     flex-direction: column;
@@ -433,6 +441,7 @@ nav ul li a:hover {
     padding-bottom: 10px;
     margin-bottom: 20px;
 
+    border: solid 1px black;
 }
 
 #topoBios h2 {
@@ -444,10 +453,6 @@ nav ul li a:hover {
 #topoBios h4 {
     font-size: medium;
     font-weight: lighter;
-}
-
-#bios p {
-    text-align: left ;
 }
 
 #profilePic {
