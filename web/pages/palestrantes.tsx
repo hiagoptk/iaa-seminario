@@ -125,7 +125,7 @@ const Contato = () => {
                         </div>
                             
                         <p>
-                            É fotógrafa desde a infância, é pós-doutora em Antropologia e utiliza a fotografia em seus estudos sobre violência 
+                            É fotógrafa desde pequena, é pós-doutora em Antropologia e utiliza a fotografia em seus estudos sobre violência 
                             institucional. Participa do coletivo Negras[fotos]grafias, já publicou livros e artigos, realizou ensaios fotográficos, 
                             vídeos etnográficos e integrou exposições individuais e coletivas. Atualmente é professora adjunta na UERJ e coordena o 
                             Núcleo de Estudos Visuais em Periferias Urbanas, participando também do grupo Afrovisualidades.
