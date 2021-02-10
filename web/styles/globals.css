@@ -234,10 +234,10 @@ nav ul li a:hover {
     max-width: 2000px;
     min-width: 80px;
     width: 60vw;
-    height: 80vh;
-    background-image: url('/images/imgHome.png');
+    height: auto;
     
-    border: black 1px solid;
+    
+    
 }
 
 
