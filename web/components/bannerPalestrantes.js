@@ -2,12 +2,12 @@ import React from 'react';
 import Image from 'next/image'
 
 
-function BannerPrograma() {
+function BannerPalestrantes() {
     
     return (
         <Image 
-        src='/images/bannerPrograma.png'
-        alt='Imersões * Programação'
+        src='/images/bannerPalestrantes.png'
+        alt='Imersões * Palestrantes'
         width={1849}
         height={295}
         layout='responsive'
@@ -15,5 +15,5 @@ function BannerPrograma() {
     );
 }
 
-export default BannerPrograma;
+export default BannerPalestrantes;
 

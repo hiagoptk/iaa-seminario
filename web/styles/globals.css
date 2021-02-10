@@ -60,6 +60,7 @@ body {
 }
 
 .boxBannerConvoc {
+    margin-top: 250px;
     max-width: 1173px;
     min-width:  117px;
     max-height: 341px;
@@ -75,6 +76,9 @@ body {
     display: block;
 }
 
+.banner {
+    margin-top: 350px;
+}
 
   /* CABEÇALHO */
   nav {
@@ -304,7 +308,7 @@ nav ul li a:hover {
 
 #topoPrograma{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: initial;
     justify-content: center;
    
@@ -313,13 +317,12 @@ nav ul li a:hover {
 
 #topoPrograma h4 {
     margin-left: 5px;
-
-    margin: black 1px solid;
 }
 
-#topoPrograma h3 {
+#topoPrograma p a {
     font-family: 'Bonoci';
     color: var(--cor-link);
+    text-decoration: none;
 
 }
 
@@ -337,11 +340,17 @@ nav ul li a:hover {
     padding-left: 5px;
 
     margin: 10px 0;
-    
 }
 
 .red  {
     color: var(--cor-link);
+}
+
+.red-link {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+    font-size: large;
+    
 }
 
 .blue  {
@@ -396,6 +405,61 @@ nav ul li a:hover {
 
 /* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
 
+
+/* -------------------------- INÍCIO DA PAGINA PALESTRANTES ----------------------------------*/
+
+.boxPalestrante { 
+   width: 55vw;
+   max-width: 2000px;
+   height: auto;
+   margin: 15px 0;
+   
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#bios p {
+    text-align: left ;
+}
+
+#topoBios {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;    
+    margin-bottom: 10px;
+}
+
+#topoBios h2 {
+    font-family: 'Bonoci';
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+#topoBios h4 {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+#profilePic {
+    float: center;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    padding-top: 20px;
+
+    min-width: 250px;
+    max-width: 800px;
+ 
+    min-height: 250px;
+    max-height: 800px;
+
+    width: 2rem;
+    height: 2rem;
+}
+
+/* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
+
 @media(max-width: 1000px) {
     
     body {
@@ -432,7 +496,6 @@ nav ul li a:hover {
     .boxBannerPrograma {
         width: 85vw;
         display: block;
-     
     }
 
 
@@ -493,8 +556,6 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-      
     }
 
     nav ul {
@@ -504,8 +565,6 @@ nav ul li a:hover {
         align-items: center;
         list-style: none;
         overflow: hidden;
-
-        
     }
 
     nav ul li {
@@ -524,7 +583,7 @@ nav ul li a:hover {
     }
 
     nav ul li a {
-        font-size: 0.6rem;
+        font-size: x-small;
     }
 
     li a:hover {
@@ -534,7 +593,7 @@ nav ul li a:hover {
     /* HOME */
     .box {
         width: 90vw;   
-        padding: 15px 10px;
+        padding: 15px 5px;
      }
 
     .box p {
@@ -587,7 +646,6 @@ nav ul li a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
 
     #footerConvocatory div {
@@ -606,12 +664,56 @@ nav ul li a:hover {
         width: 95vw;
         height: 20px;
         overflow: hidden;
-        padding-left: 5px;
-    
+        padding-left: 5px; 
         margin: 10px 0;
     }
     
     .boxItem p b {
         font-size: 0.95rem;
     }
+
+    #profilePic {
+        min-width: 150px;
+        min-height: 150px;
+    }
+
+
+
+    /* -------------------------- INÍCIO DA PAGINA PALESTRANTES ----------------------------------*/
+
+    .boxPalestrante { 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    }
+
+    #topoBios {
+        display: flex;
+        flex-direction: column;
+        width: 90VW;
+        margin-bottom: 10px;
+    }
+
+    #topoBios h2 {
+        font-family: 'Bonoci';
+        font-size: large;
+    }
+
+    #profilePic {
+        float: center;
+        margin-bottom: 15px;
+        margin-right: 20px;
+        padding-top: 20px;
+        min-width: 250px;
+        max-width: 800px;
+        min-height: 250px;
+        max-height: 800px;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
 }
