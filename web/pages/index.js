@@ -54,8 +54,10 @@ const Home = () => {
                         Casa França-Brasil e dos grupos de extensão e pesquisa CURA/UERJ e Linda/PUC-Rio.</p>
 
                    
-                    <div className='boxImg'>
-                        <HomeImg  id='homeImg' />
+                   <div className='boxImg'>
+                        <a href='https://www.even3.com.br/seminarioimersoes/' >
+                            <HomeImg />
+                        </a>
                     </div>
                 </div>
               
