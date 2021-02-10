@@ -55,7 +55,9 @@ const Home = () => {
 
                    
                     <div className='boxImg'>
-                        
+                        <a href='https://www.even3.com.br/seminarioimersoes/' >
+                            <HomeImg />
+                        </a>
                     </div>
                 </div>
               
