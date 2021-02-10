@@ -237,6 +237,11 @@ nav ul li a:hover {
     height: auto;
 }
 
+.boxImg h2 {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+}
+
 
 /*   ------------ ~ sz ~ CONVOCATÓRIA ~ sz ~ ------------   */
 
