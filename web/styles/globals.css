@@ -418,7 +418,6 @@ nav ul li a:hover {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   
 }
 
 #bios p {
@@ -457,7 +456,6 @@ nav ul li a:hover {
 
     width: 2rem;
     height: 2rem;
-
 }
 
 /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
@@ -498,7 +496,6 @@ nav ul li a:hover {
     .boxBannerPrograma {
         width: 85vw;
         display: block;
-     
     }
 
 
@@ -559,8 +556,6 @@ nav ul li a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-      
     }
 
     nav ul {
@@ -570,8 +565,6 @@ nav ul li a:hover {
         align-items: center;
         list-style: none;
         overflow: hidden;
-
-        
     }
 
     nav ul li {
@@ -653,7 +646,6 @@ nav ul li a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
-        
     }
 
     #footerConvocatory div {
@@ -695,14 +687,12 @@ nav ul li a:hover {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
     height: auto;
     }
 
     #topoBios {
         display: flex;
         flex-direction: column;
-        
         width: 90VW;
         margin-bottom: 10px;
     }
@@ -717,16 +707,12 @@ nav ul li a:hover {
         margin-bottom: 15px;
         margin-right: 20px;
         padding-top: 20px;
-
         min-width: 250px;
         max-width: 800px;
-
         min-height: 250px;
         max-height: 800px;
-
         width: 2rem;
         height: 2rem;
-
     }
 
     /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
