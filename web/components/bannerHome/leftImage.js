@@ -8,8 +8,8 @@ const leftImage = () => {
         <Image 
             src='/images/leftImageBanner.png'
             alt='Imersões * Palestrante'
-            width={2040}
-            height={2642}
+            width={1020}
+            height={1321}
             layout='responsive'
         />
     );

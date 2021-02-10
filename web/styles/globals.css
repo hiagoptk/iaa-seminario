@@ -717,3 +717,20 @@ nav ul li a:hover {
 
     /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
 }
+
+
+/* -------------- TESTE ------------------*/
+
+.bannerHome {
+    max-width: 1020px;
+    max-height: 1321px;
+    width: 50vw;
+    height: 85vh;
+    border: black 1px solid;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

@@ -8,8 +8,8 @@ const BottonImage = () => {
         <Image 
             src='/images/bottonImageBanner.png'
             alt='Imersões * Palestrante'
-            width={2040}
-            height={2642}
+            width={1020}
+            height={1321}
             layout='responsive'
         />
     );
