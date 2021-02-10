@@ -55,8 +55,7 @@ const Home = () => {
 
                    
                     <div className='boxImg'>
-                        <HomeImg  id='homeImg' />
-                        <h2> AQUI </h2>
+                        
                     </div>
                 </div>
               
