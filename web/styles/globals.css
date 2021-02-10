@@ -235,7 +235,7 @@ nav ul li a:hover {
     min-width: 80px;
     width: 60vw;
     height: 80vh;
-    background-image: url('./public/images/imgHome.png');
+    background-image: url('/images/imgHome.png');
     
     border: black 1px solid;
 }
