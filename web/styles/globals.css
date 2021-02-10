@@ -238,7 +238,7 @@ nav ul li a:hover {
     
     display: flex;
     flex-direction: column;
-    align-item: center
+    align-item: center;
 }
 
 .boxImg h2 {
