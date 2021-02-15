@@ -13,7 +13,7 @@ const Button = () => {
    
             
             <button className='button' id='form' >
-                <a href=' ' target='_blank'>RESULTADO </a>
+                <a href=''>RESULTADO </a>
             </button>
             
         </>
