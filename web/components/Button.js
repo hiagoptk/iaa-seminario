@@ -13,7 +13,7 @@ const Button = () => {
    
             
             <button className='button' id='form' >
-                <a href='https://docs.google.com/forms/d/1qF_8qfsI5sj6Z6Bu9Xr2czZNMzVhAExqQS7VtdV9QZE/edit' target='_blank'>INSCREVA-SE </a>
+                <a href=' ' target='_blank'>RESULTADO </a>
             </button>
             
         </>
