@@ -8,8 +8,8 @@ function HomeImg() {
         <Image 
         src='/images/imgHome.png'
         alt='Imersões * Arte e Arquitetura'
-        width={1020}
-        height={1321}
+        width={1920}
+        height={1791}
         layout='responsive'
         />
     );
