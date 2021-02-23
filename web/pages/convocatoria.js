@@ -30,7 +30,7 @@ const Convocatory = () => {
                        debate para além das falas das (dos) palestrantes. Interessa ao projeto apresentar experiências, oriundas do meio acadêmico, 
                        artístico e/ou de comunidades e movimentos sociais, que se coloquem como insurgência ou alternativa às estruturas hegemônicas. </p>
                     
-                    <p><b>O prazo para submissão de trabalhos encerrou-se em 12 de fevereiro. O resultado será divulgado nesta página até 22 de fevereiro.</b></p>
+                    <p><b>O prazo para submissão de trabalhos encerrou-se em 12 de fevereiro. O resultado está divulgado nesta páginam</b></p>
                 </div>
               
                 <div id='buttonBox'>
