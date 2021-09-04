@@ -54,6 +54,14 @@ const Contato = () => {
                        
                         <p><span>MEDIADOR</span>  <br />
                             <b>Jocelino Pessoa</b> <span className='prof'>(Produtor Cultural/RJ)</span></p>
+                                
+                                <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/ZDd2yai1QGo" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
                     </div>
 
 
@@ -73,6 +81,14 @@ const Contato = () => {
                         
                         <p><span>MEDIADORA</span> <br /> 
                             <b>Tania Queiroz</b> <span className='prof'>(Arquiteta, Artista e Educadora/RJ)</span></p>
+                                
+                                 <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/YVQyAeNyekg" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
                     </div>
 
                 </div>
@@ -98,6 +114,14 @@ const Contato = () => {
             
                     <p><span>MEDIADOR</span> <br />
                         <b>João Paulo Quintella</b> <span className='prof'>(Curador de Arte/RJ)</span></p>
+                            
+                             <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/p2NDwLrKz34" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
 
                 </div>
 
@@ -123,6 +147,14 @@ const Contato = () => {
                     <p><span>PALESTRANTES</span> <br /> <b>Maurício Hora</b> <span className='prof'>(Artista/RJ)</span> <b>Raquel Rolnik</b> <span className='prof'>(Arquiteta e Urbanista/SP)</span> <br /> 
                     <b>William Bittar</b> <span className='prof'>(Arquiteto e Professor/RJ)</span> </p>
                     <p><span>MEDIADORA</span> <br /> <b>Patrícia Oliveira</b> <span className='prof'>(Arquiteta/RJ)</span></p>
+                        
+                         <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/P195JYTcLHc" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
 
                 </div>
 
@@ -147,6 +179,14 @@ const Contato = () => {
                     
                     <p><span>MEDIADOR</span> <br /> 
                         <b>Marcelo Campos</b> <span className='prof'>(Curador de Arte/RJ)</span></p>
+                                                      
+                            <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/TGWtMLeDnwA"
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
 
                 </div>
 
