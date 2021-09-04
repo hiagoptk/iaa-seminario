@@ -23,13 +23,13 @@ const Contato = () => {
                 
                 <div className='box' id='boxContato' >
                    <p>
-                       SEMINÁRIO <br>
+                       SEMINÁRIO <\br>
                        ORGANIZAÇÃO e CURADORIA<br>
 
-                        André Carvalho<br>
-                        Jocelino Pessoa<br>
-                        Marcelo Campos<br>
-                        Tania Queiroz<br>
+                        André Carvalho<\br>
+                        Jocelino Pessoa<\br>
+                        Marcelo Campos<\br>
+                        Tania Queiroz<\br>
                    </p>
                 </div>
               
