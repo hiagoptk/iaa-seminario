@@ -21,75 +21,15 @@ const Contato = () => {
                     <BannerContato />
                 </div> 
                 
-                <div className='box' id='boxContato'>
-                   <ol>
-                    <li><b> SEMINÁRIO </b></li>
-                    <li><b> ORGANIZAÇÃO e CURADORIA </b></li>
-                    <li> André Carvalho </li>
-                    <li> Jocelino Pessoa </li>
-                    <li> Marcelo Campos</li>
-                    <li> Tania Queiroz</li>
-                   </ol>
-               
-                   <ol>
-                    <li> DESIGN</li>
-                    <li> Lygia Santiago </li>
-                   </ol>
-
-                   <ol>
-                    <li> COMUNICAÇÃO</li>
-                    <li> Rubia Mazzini</li>
-                    <li> Roberta Campos</li>
-                   </ol>
-         
-
-                   <ol>
-                    <li> ASSESSORIA DE IMPRENSA</li>
-                    <li> Rita Fernandes</li>
-                    <li> Márcio Martins</li>
-                   </ol>
-          
-                   <ol>
-                    <li> SITE</li>
-                    <li> Hiago Patrick</li>
-                   </ol>
-          
-                   <ol>
-                    <li> PRODUÇÃO AUDIOVISUAL e STREAMING</li>
-                    <li> Luigi William </li>
-                    <li> Rafael Gusmão</li>
-                   </ol>
-            
-                   <ol>
-                    <li> LIBRAS</li>
-                    <li> Ivoneide Amaral</li>
-                    <li> Ivoleides Amaral</li>
-                    <li> Ivoneila Amaral</li>
-                   </ol>
-              
-                   <ol>
-                    <li> PUBLICAÇÃO</li>
-                    <li> ORGANIZAÇÃO</li>
-                    <li> André Carvalho</li>
-                    <li> Jocelino Pessoa</li>
-                    <li> Marcelo Campos</li>
-                    <li> Tania Queiroz</li>
-                   </ol>
-          
-                   <ol>
-                    <li> COORDENAÇÃO EDITORIAL</li>
-                    <li> Rubia Mazzini</li>
-                   </ol>
-                 
-                   <ol>
-                    <li> DESIGN</li>
-                    <li> Lygia Santiago</li>
-                   </ol>
-         
-                   <ol>
-                    <li> REVISÃO DE TEXTO</li>
-                    <li> Fred Girauta</li>
-                  </ol>
+                <div className='box' id='boxContato' >
+                    <p>Dúvidas sobre a <b><a href='https://drive.google.com/file/d/1ZYlrC7TAX4_Y2zxCmbTuRPLUNTrLNs-n/view?usp=sharing' target='_blank'>Convocatória</a></b> poderão ser dirimidas por meio do e-mail. 
+                        Para um suporte adequado, somente serão respondidas questões relativas à interpretação 
+                        da convocatória e que não estejam previstas no <b><a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>FAQ</a></b>.</p>
+                   <div className='boxContatos'>
+                    <p><span>ORGANIZAÇÃO</span> <br /> <b>seminario@imersoes.arq.br</b></p>
+                        
+                    <p><span>ASSESSORIA DE IMPRENSA</span> <br /> <b>carolina.feital@trevocomunicativa.com.br</b></p> 
+                    </div>
                 </div>
               
             </div>
