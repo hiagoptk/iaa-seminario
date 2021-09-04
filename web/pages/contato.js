@@ -21,7 +21,7 @@ const Contato = () => {
                     <BannerContato />
                 </div> 
                 
-                <div className='box' id='boxContato' >
+                <div className='box' id='boxContato'>
                    <ol>
                     <li><b> SEMINÁRIO </b></li>
                     <li><b> ORGANIZAÇÃO e CURADORIA </b></li>
@@ -30,9 +30,7 @@ const Contato = () => {
                     <li> Marcelo Campos</li>
                     <li> Tania Queiroz</li>
                    </ol>
-                </div>
-                
-                <div className='box' id='boxContato' >
+               
                    <ol>
                     <li> DESIGN</li>
                     <li> Lygia Santiago </li>
@@ -43,42 +41,32 @@ const Contato = () => {
                     <li> Rubia Mazzini</li>
                     <li> Roberta Campos</li>
                    </ol>
-                </div>
-                
-                <div className='box' id='boxContato' >
+         
 
                    <ol>
                     <li> ASSESSORIA DE IMPRENSA</li>
                     <li> Rita Fernandes</li>
                     <li> Márcio Martins</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+          
                    <ol>
                     <li> SITE</li>
                     <li> Hiago Patrick</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+          
                    <ol>
                     <li> PRODUÇÃO AUDIOVISUAL e STREAMING</li>
                     <li> Luigi William </li>
                     <li> Rafael Gusmão</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+            
                    <ol>
                     <li> LIBRAS</li>
                     <li> Ivoneide Amaral</li>
                     <li> Ivoleides Amaral</li>
                     <li> Ivoneila Amaral</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+              
                    <ol>
                     <li> PUBLICAÇÃO</li>
                     <li> ORGANIZAÇÃO</li>
@@ -87,23 +75,17 @@ const Contato = () => {
                     <li> Marcelo Campos</li>
                     <li> Tania Queiroz</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+          
                    <ol>
                     <li> COORDENAÇÃO EDITORIAL</li>
                     <li> Rubia Mazzini</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+                 
                    <ol>
                     <li> DESIGN</li>
                     <li> Lygia Santiago</li>
                    </ol>
-                 </div>
-                
-                 <div className='box' id='boxContato' >
+         
                    <ol>
                     <li> REVISÃO DE TEXTO</li>
                     <li> Fred Girauta</li>
