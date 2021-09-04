@@ -1,3 +1,6 @@
+import React from 'react';
+import { FaYoutubeSquare, FaInstagram, FaFacebookSquare } from 'react-icons/fa';
+
 const Navbar = () => {
     return (
         
