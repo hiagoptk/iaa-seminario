@@ -35,7 +35,7 @@ const Home = () => {
                         arquitetura responsáveis por mais compromissos sociais. </p>
         
                     <p>Os eixos centrais de <b>Imersões</b> – Arte e arquitetura, Habitação social e Arquitetura e alteridades – procuram ampliar a discussão que se apresenta 
-                       Mundial de Arquitetos – UIA 2021: Todos os mundos. <b><i>Um só mundo</b></i>.</p>
+                       Mundial de Arquitetos – UIA 2021: Todos os mundos. <b><i>Um só mundo</i></b>.</p>
         
                     <p>Os palestrantes trouxeram experiências que abordam a configuração do espaço urbano como oportunidade de contato e exercício cotidiano da cidade e da arte, 
                        discutindo transitoriedade, fluxos e outras formas de viver. Como pensar as relações entre arte, arquitetura, a humanidade e a habitação social? A quem a 
