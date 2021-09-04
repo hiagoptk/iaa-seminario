@@ -1,5 +1,3 @@
-import React from 'react';
-import { FaYoutubeSquare, FaInstagram, FaFacebookSquare } from 'react-icons/fa';
 
 const Navbar = () => {
     return (
@@ -24,11 +22,11 @@ const Navbar = () => {
                     <li> <p>*</p> </li>
                     <li> <a href='/convocatoria'>CONVOCATÓRIA</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/programacao'>PROGRAMAÇÃO</a></li>
+                    <li> <a href='/programacao'>PROGRAMAÇÃO (assista aqui aos vídeos)</a></li>
                     <li> <p>*</p> </li>
                     <li> <a href='/palestrantes'>PALESTRANTES</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/contato'>CONTATO  </a></li>
+                    <li> <a href='/contato'>SOBRE O PROJETO</a></li>
                 </ul>
             </nav>
     )
