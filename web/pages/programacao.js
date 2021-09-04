@@ -54,6 +54,14 @@ const Contato = () => {
                        
                         <p><span>MEDIADOR</span>  <br />
                             <b>Jocelino Pessoa</b> <span className='prof'>(Produtor Cultural/RJ)</span></p>
+                                
+                                <iframe width="560" 
+                                        height="315" 
+                                        src="https://www.youtube.com/embed/ZDd2yai1QGo" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                        allowfullscreen></iframe>
                     </div>
 
 
