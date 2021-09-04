@@ -22,15 +22,74 @@ const Contato = () => {
                 </div> 
                 
                 <div className='box' id='boxContato' >
-                   <p>
-                       SEMINÁRIO <\br>
-                       ORGANIZAÇÃO e CURADORIA<br>
+                   <ol>
+                    <li><b> SEMINÁRIO </b></li>
+                    <li><b> ORGANIZAÇÃO e CURADORIA </b></li>
+                    <li> André Carvalho </li>
+                    <li> Jocelino Pessoa </li>
+                    <li> Marcelo Campos</li>
+                    <li> Tania Queiroz</li>
+                   </ol>
 
-                        André Carvalho<\br>
-                        Jocelino Pessoa<\br>
-                        Marcelo Campos<\br>
-                        Tania Queiroz<\br>
-                   </p>
+                   <ol>
+                    <li> DESIGN</li>
+                    <li> Lygia Santiago </li>
+                   </ol>
+
+                   <ol>
+                    <li> COMUNICAÇÃO</li>
+                    <li> Rubia Mazzini</li>
+                    <li> Roberta Campos</li>
+                   </ol>
+
+                   <ol>
+                    <li> ASSESSORIA DE IMPRENSA</li>
+                    <li> Rita Fernandes</li>
+                    <li> Márcio Martins</li>
+                   </ol>
+
+                   <ol>
+                    <li> SITE</li>
+                    <li> Hiago Patrick</li>
+                   </ol>
+
+                   <ol>
+                    <li> PRODUÇÃO AUDIOVISUAL e STREAMING</li>
+                    <li> Luigi William </li>
+                    <li> Rafael Gusmão</li>
+                   </ol>
+
+                   <ol>
+                    <li> LIBRAS</li>
+                    <li> Ivoneide Amaral</li>
+                    <li> Ivoleides Amaral</li>
+                    <li> Ivoneila Amaral</li>
+                   </ol>
+
+                   <ol>
+                    <li> PUBLICAÇÃO</li>
+                    <li> ORGANIZAÇÃO</li>
+                    <li> André Carvalho</li>
+                    <li> Jocelino Pessoa</li>
+                    <li> Marcelo Campos</li>
+                    <li> Tania Queiroz</li>
+                   </ol>
+
+                   <ol>
+                    <li> COORDENAÇÃO EDITORIAL</li>
+                    <li> Rubia Mazzini</li>
+                   </ol>
+
+                   <ol>
+                    <li> DESIGN</li>
+                    <li> Lygia Santiago</li>
+                   </ol>
+
+                   <ol>
+                    <li> REVISÃO DE TEXTO</li>
+                    <li> Fred Girauta</li>
+                  </ol>
+        
                 </div>
               
             </div>
