@@ -45,6 +45,8 @@ const Home = () => {
                     <p>Premiado no edital #RetomadaCulturalRJ da Secretaria de Estado de Cultura e de Economia Criativa do Rio de Janeiro e parte integrante do calendário oficial 
                        de eventos culturais do UIA 2021, “Imersões” foi uma realização em parceria da Escola Sem Sítio, Casa França-Brasil e dos grupos de extensão e 
                        pesquisa CURA/UERJ e Linda/PUC-Rio.</p>
+                    
+                    <p>Assista aos vídeos <a target="_blank" href="https://imersoes.arq.br/programacao">aqui</a>.<p>
                   
                    <div className='boxImg'>
                         <a target='_blank' href='https://www.even3.com.br/seminarioimersoes/' >
