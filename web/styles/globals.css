@@ -42,7 +42,7 @@ body {
     background-color: var(--cor-principal);
 }
 
-.main .box p a {
+#linkHome {
     font-family: 'Bonoci';
     color: var(--cor-link);
     text-decoration: none;
