@@ -203,7 +203,7 @@ nav #program {
     margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 } 
 
