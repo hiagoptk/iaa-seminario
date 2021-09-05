@@ -42,6 +42,11 @@ body {
     background-color: var(--cor-principal);
 }
 
+.main .box p a {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+    text-decoration: none;
+}
 
 .boxBannerDesktop  {
     max-width: 3498px;
@@ -245,12 +250,6 @@ nav #program {
     font-weight: 300;
     font-size: 1rem;
     padding: 0.5rem;
-}
-
-.box p a {
-    font-family: 'Bonoci';
-    color: var(--cor-link);
-    text-decoration: none;
 }
 
 .boxImg {
