@@ -210,6 +210,9 @@ nav #program {
 #boxContato {
     margin-bottom: 80px;
 }
+#boxContato ul {
+    list-style: none;
+}
 
 .boxContatos span {
     font-size: 0.7rem;  
