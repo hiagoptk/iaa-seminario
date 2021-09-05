@@ -24,35 +24,37 @@ const Contato = () => {
                 <div className='box' id='boxContato'>
                    <ul>
                     <li><h2> SEMINÁRIO </h2></li>
-                    <li><h3> ORGANIZAÇÃO e CURADORIA </h3></li>
-                    <li> André Carvalho </li>
-                    <li> Jocelino Pessoa </li>
-                    <li> Marcelo Campos</li>
-                    <li> Tania Queiroz</li>
-                    <li> <br/> </li>
-                    <li><h3> DESIGN </h3></li>
-                    <li> Lygia Santiago </li>
-                    <li> <br/> </li>
-                    <li> <h3>COMUNICAÇÃO</h3></li>
-                    <li> Rubia Mazzini</li>
-                    <li> Roberta Campos</li>
-                    <li> <br/> </li>
-                    <li><h3> ASSESSORIA DE IMPRENSA</h3></li>
-                    <li> Rita Fernandes</li>
-                    <li> Márcio Martins</li>
-                    <li> <br/> </li>
-                    <li><h3> SITE</h3></li>
-                    <li> Hiago Patrick</li>
-                    <li> <br/> </li>
-                    <li> <h3>PRODUÇÃO AUDIOVISUAL e STREAMING</h3></li>
-                    <li> Luigi William </li>
-                    <li> Rafael Gusmão</li>
-                    <li> <br/> </li>
-                    <li> <h3>LIBRAS</h3></li>
-                    <li> Ivoneide Amaral</li>
-                    <li> Ivoleides Amaral</li>
-                    <li> Ivoneila Amaral</li>
-                    <li> <br/> </li>
+                        <li><ul>
+                            <li><h3> ORGANIZAÇÃO e CURADORIA </h3></li>
+                            <li> André Carvalho </li>
+                            <li> Jocelino Pessoa </li>
+                            <li> Marcelo Campos</li>
+                            <li> Tania Queiroz</li>
+                            <li> <br/> </li>
+                            <li><h3> DESIGN </h3></li>
+                            <li> Lygia Santiago </li>
+                            <li> <br/> </li>
+                            <li> <h3>COMUNICAÇÃO</h3></li>
+                            <li> Rubia Mazzini</li>
+                            <li> Roberta Campos</li>
+                            <li> <br/> </li>
+                            <li><h3> ASSESSORIA DE IMPRENSA</h3></li>
+                            <li> Rita Fernandes</li>
+                            <li> Márcio Martins</li>
+                            <li> <br/> </li>
+                            <li><h3> SITE</h3></li>
+                            <li> Hiago Patrick</li>
+                            <li> <br/> </li>
+                            <li> <h3>PRODUÇÃO AUDIOVISUAL e STREAMING</h3></li>
+                            <li> Luigi William </li>
+                            <li> Rafael Gusmão</li>
+                            <li> <br/> </li>
+                            <li> <h3>LIBRAS</h3></li>
+                            <li> Ivoneide Amaral</li>
+                            <li> Ivoleides Amaral</li>
+                            <li> Ivoneila Amaral</li>
+                            <li> <br/> </li>
+                        </ul></li>
                     <li> <h2>PUBLICAÇÃO</h2></li>
                     <li> <h3>ORGANIZAÇÃO</h3></li>
                     <li> André Carvalho</li>
