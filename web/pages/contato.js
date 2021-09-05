@@ -22,7 +22,7 @@ const Contato = () => {
                 </div> 
                 
                 <div className='box' id='boxContato'>
-                   <ol>
+                   <ul>
                     <li><b> SEMINÁRIO </b></li>
                     <li><b> ORGANIZAÇÃO e CURADORIA </b></li>
                     <li> André Carvalho </li>
@@ -68,7 +68,7 @@ const Contato = () => {
                     <li> <br/> </li>
                     <li> <b>REVISÃO DE TEXTO</b></li>
                     <li> Fred Girauta</li>
-                  </ol>
+                  </ul>
                 </div>
               
             </div>
