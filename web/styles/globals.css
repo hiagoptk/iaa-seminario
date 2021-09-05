@@ -229,12 +229,6 @@ nav ul li a:hover {
     padding: 0.5rem;
 }
 
-.box p a {
-    font-family: 'Bonoci';
-    color: var(--cor-link);
-    text-decoration: none;
-}
-
 .boxImg {
     max-width: 2000px;
     min-width: 80px;
