@@ -233,6 +233,11 @@ nav #program {
     padding: 0.5rem;
 }
 
+.box p a {
+    font-family: 'Bonoci';
+    color: var(--cor-link);
+    text-decoration: none;
+}
 
 .boxImg {
     max-width: 2000px;
