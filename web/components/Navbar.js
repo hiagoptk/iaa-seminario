@@ -24,7 +24,7 @@ const Navbar = () => {
                     <li> <p>*</p> </li>
                     <li> <a href='/convocatoria'>CONVOCATÓRIA</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/programacao'>PROGRAMAÇÃO <br/> (assista)</a></li>
+                    <li> <a href='/programacao' id="program">PROGRAMAÇÃO <br/> (assista)</a></li>
                     <li> <p>*</p> </li>
                     <li> <a href='/palestrantes'>PALESTRANTES</a></li>
                     <li> <p>*</p> </li>
