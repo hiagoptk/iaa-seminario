@@ -23,8 +23,7 @@ const Contato = () => {
                 
                 <div className='box' id='topoPrograma' >
                   
-                   <p>Todas as mesas serão transmitidas ao vivo pela Internet e terão tradução simultânea para Libras. Os participantes previamente inscritos receberão certificado. 
-                      Faça sua <b><a target='_blank'  href='https://www.even3.com.br/seminarioimersoes/'>inscrição</a></b>  gratuita.</p>
+                   <p>Todas as mesas foram transmitidas ao vivo pela Internet com tradução simultânea para Libras.</p>
                 </div>
 
                 
