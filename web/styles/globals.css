@@ -43,8 +43,8 @@ body {
 }
 
 #linkHome {
-    
-    color: var(--cor-button);
+    font-family: 'Bonoci';
+    color: var(--cor-link);
     text-decoration: none;
 }
 
