@@ -130,6 +130,10 @@ nav ul li a:hover {
     color: var(--cor-link);
 }
 
+nav #program {
+    text-align: center;
+}
+
 #disabled {
     cursor: default;
 }
