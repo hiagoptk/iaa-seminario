@@ -23,50 +23,50 @@ const Contato = () => {
                 
                 <div className='box' id='boxContato'>
                    <ul>
-                    <li><b> SEMINÁRIO </b></li>
-                    <li><b> ORGANIZAÇÃO e CURADORIA </b></li>
+                    <li><h2> SEMINÁRIO </h2></li>
+                    <li><h3> ORGANIZAÇÃO e CURADORIA </h3></li>
                     <li> André Carvalho </li>
                     <li> Jocelino Pessoa </li>
                     <li> Marcelo Campos</li>
                     <li> Tania Queiroz</li>
                     <li> <br/> </li>
-                    <li><b> DESIGN </b></li>
+                    <li><h3> DESIGN </h3></li>
                     <li> Lygia Santiago </li>
                     <li> <br/> </li>
-                    <li> <b>COMUNICAÇÃO</b></li>
+                    <li> <h3>COMUNICAÇÃO</h3></li>
                     <li> Rubia Mazzini</li>
                     <li> Roberta Campos</li>
                     <li> <br/> </li>
-                    <li><b> ASSESSORIA DE IMPRENSA</b></li>
+                    <li><h3> ASSESSORIA DE IMPRENSA</h3></li>
                     <li> Rita Fernandes</li>
                     <li> Márcio Martins</li>
                     <li> <br/> </li>
-                    <li><b> SITE</b></li>
+                    <li><h3> SITE</h3></li>
                     <li> Hiago Patrick</li>
                     <li> <br/> </li>
-                    <li> <b>PRODUÇÃO AUDIOVISUAL e STREAMING</b></li>
+                    <li> <h3>PRODUÇÃO AUDIOVISUAL e STREAMING</h3></li>
                     <li> Luigi William </li>
                     <li> Rafael Gusmão</li>
                     <li> <br/> </li>
-                    <li> <b>LIBRAS</b></li>
+                    <li> <h3>LIBRAS</h3></li>
                     <li> Ivoneide Amaral</li>
                     <li> Ivoleides Amaral</li>
                     <li> Ivoneila Amaral</li>
                     <li> <br/> </li>
-                    <li> <b>PUBLICAÇÃO</b></li>
-                    <li> <b>ORGANIZAÇÃO</b></li>
+                    <li> <h2>PUBLICAÇÃO</h2></li>
+                    <li> <h3>ORGANIZAÇÃO</h3></li>
                     <li> André Carvalho</li>
                     <li> Jocelino Pessoa</li>
                     <li> Marcelo Campos</li>
                     <li> Tania Queiroz</li>
                     <li> <br/> </li>
-                    <li> <b>COORDENAÇÃO EDITORIAL</b></li>
+                    <li> <h3>COORDENAÇÃO EDITORIAL</h3></li>
                     <li> Rubia Mazzini</li>
                     <li> <br/> </li>
-                    <li> <b>DESIGN</b></li>
+                    <li> <h3>DESIGN</h3></li>
                     <li> Lygia Santiago</li>
                     <li> <br/> </li>
-                    <li> <b>REVISÃO DE TEXTO</b></li>
+                    <li> <h3>REVISÃO DE TEXTO</h3></li>
                     <li> Fred Girauta</li>
                   </ul>
                 </div>
