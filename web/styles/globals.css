@@ -44,7 +44,6 @@ body {
 
 #linkHome {
     
-    font-family: 'Bonoci' !important;
     color: var(--cor-button);
     text-decoration: none;
 }
