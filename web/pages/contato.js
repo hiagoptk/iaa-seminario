@@ -29,9 +29,7 @@ const Contato = () => {
                     <li> Jocelino Pessoa </li>
                     <li> Marcelo Campos</li>
                     <li> Tania Queiroz</li>
-                   </ol>
-               
-                   <ol>
+                    <li> * * * * * * * * </li>
                     <li> DESIGN</li>
                     <li> Lygia Santiago </li>
                    </ol>
