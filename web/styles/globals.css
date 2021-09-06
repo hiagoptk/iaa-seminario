@@ -425,7 +425,6 @@ nav #program {
 }
 
 
-
 /* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
 
 
@@ -698,6 +697,10 @@ nav #program {
     #profilePic {
         min-width: 150px;
         min-height: 150px;
+    }
+    
+    .boxItem iframe {
+        width: 55vw;
     }
 
 
