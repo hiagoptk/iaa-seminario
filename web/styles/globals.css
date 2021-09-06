@@ -700,7 +700,8 @@ nav #program {
     }
     
     .boxItem iframe {
-        width: 100vw;
+        width: 80vw;
+        height: auto;
     }
 
 
