@@ -701,6 +701,7 @@ nav #program {
     
     .boxItem iframe {
         width: 90vw;
+        max-width: 560px;
         height: auto;
     }
 
