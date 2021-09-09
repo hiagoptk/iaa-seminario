@@ -18,13 +18,13 @@ const Navbar = () => {
                         <a href='https://www.instagram.com/seminarioimersoes/' target='_blank' id='igBold'><FaInstagram /></a>
                         <a href='https://www.youtube.com/channel/UCQzNqcPI1z1MJzjXdalWqfw' target='_blank' id='ytBold'><FaYoutubeSquare /></a>
                     </span>
-                </div>
+                </div> 
                 <ul>
                     <li> <a href='/'>HOME </a></li>
                     <li> <p>*</p> </li>
                     <li> <a href='/convocatoria'>CONVOCATÓRIA</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/programacao' id="program">PROGRAMAÇÃO<br/>(assista)</a></li>
+                    <li> <a href='/programacao' id="program">VÍDEOS</a></li>
                     <li> <p>*</p> </li>
                     <li> <a href='/palestrantes'>PALESTRANTES</a></li>
                     <li> <p>*</p> </li>
