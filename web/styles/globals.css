@@ -678,10 +678,7 @@ nav #program {
     
     /*   ------------ ~ sz ~ PROGRAMAÇÃO PAGE ~ sz ~ ------------   */
 
-    #program {
-        padding-top: 15px;
-    }
-
+    
     .separa {
         width: 95vw;
         height: 20px;
@@ -701,8 +698,7 @@ nav #program {
     
     .boxItem iframe {
         width: 90vw;
-        max-width: 560px;
-        max-height: 315px;
+        max-width: 410px;
         height: auto;
     }
 
