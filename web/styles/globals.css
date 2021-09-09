@@ -741,4 +741,20 @@ nav #program {
     }
 
     /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
+    
+    
+    /* ----------------------------     PÁGINA     CONTATO     -----------------------------------*/ 
+
+    #boxContato ul h2 {
+        font-family: 'Bonoci';
+        font-size: 1.2em;
+        color: var(--cor-link)
+    }
+    
+    #boxContato ul h3 {
+        font-family: 'Bonoci';
+        font-size: 1em;
+        color: var(--cor-button)
+    }
+    
 }
