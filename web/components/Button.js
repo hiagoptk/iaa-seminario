@@ -8,7 +8,7 @@ const Button = () => {
             </button>
    
             <button className='button' id='pdfFAQ' >
-                <a href='../public/docs/FAQ-final.pdf' download="FAQ_Imersões" target='_blank'>  FAQ </a>
+                <a href='/public/docs/FAQ-final.pdf' download="FAQ_Imersões" target='_blank'>  FAQ </a>
             </button>
    
             
