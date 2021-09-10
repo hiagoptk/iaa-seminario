@@ -7,7 +7,7 @@ const Button = () => {
                 <a href='https://drive.google.com/file/d/1ZYlrC7TAX4_Y2zxCmbTuRPLUNTrLNs-n/view?usp=sharing' target='_blank'> CONVOCATÓRIA </a>
             </button>
    
-            <button className='button' type="submit" onclick="window.location.href='FAQ-final.pdf'" id='pdfFAQ' >
+            <button className='button' type="button" onclick="window.location.href='FAQ-final.pdf'" id='pdfFAQ'  >
                   FAQ 
             </button>
    
