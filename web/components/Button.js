@@ -8,7 +8,7 @@ const Button = () => {
             </button>
    
             <button className='button' type="submit" onclick="window.open('FAQ-final.pdf')" id='pdfFAQ' >
-                <a href='/public/docs/FAQ-final.pdf' target='_blank'>  FAQ </a>
+                <a href='https://drive.google.com/file/d/1ITLwNAM_GgdWXW1u38wAIi7sH4HQTQ3W/view?usp=sharing' target='_blank'>  FAQ </a>
             </button>
    
             
