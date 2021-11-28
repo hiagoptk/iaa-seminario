@@ -33,6 +33,7 @@ body {
 .main {
     width: 100vw;
     height: auto;
+    min-height: 73vh;
     display: flex;
     flex-direction: column;  
     align-self: center;
@@ -308,7 +309,8 @@ nav #program {
 }
 
 #footerConvocatory {
-    width: 100vw;        
+    width: 100vw;
+    height: fit-content;
     background-color: white;
     position: fixed bottom;
     display: flex;
