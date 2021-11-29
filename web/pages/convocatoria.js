@@ -33,7 +33,7 @@ const Convocatory = () => {
                     
                     <p><b>O prazo para submissão de trabalhos encerrou-se em 12 de fevereiro. O resultado foi divulgado nesta página</b></p>
                 </div>
-                  
+
                 <div id='buttonBox'>
                     <Button />
                 </div>
