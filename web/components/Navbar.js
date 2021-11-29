@@ -28,7 +28,7 @@ const Navbar = () => {
                     <li> <p>*</p> </li>
                     <li> <a href='/palestrantes'>PALESTRANTES</a></li>
                     <li> <p>*</p> </li>
-                    <li> <a href='/sobre'>SOBRE</a></li>
+                    <li> <a href='/contato'>SOBRE</a></li>
                 </ul>
             </nav>
     )
