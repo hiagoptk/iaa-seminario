@@ -21,15 +21,56 @@ const Contato = () => {
                     <BannerContato />
                 </div> 
                 
-                <div className='box' id='boxContato' >
-                    <p>Dúvidas sobre a <b><a href='https://drive.google.com/file/d/1ZYlrC7TAX4_Y2zxCmbTuRPLUNTrLNs-n/view?usp=sharing' target='_blank'>Convocatória</a></b> poderão ser dirimidas por meio do e-mail. 
-                        Para um suporte adequado, somente serão respondidas questões relativas à interpretação 
-                        da convocatória e que não estejam previstas no <b><a href='https://drive.google.com/file/d/1E3YY_PtWHXrgv4JQK3OTmNbDg0NdDwez/view?usp=sharing' target='_blank'>FAQ</a></b>.</p>
-                   <div className='boxContatos'>
-                    <p><span>ORGANIZAÇÃO</span> <br /> <b>seminario@imersoes.arq.br</b></p>
-                        
-                    <p><span>ASSESSORIA DE IMPRENSA</span> <br /> <b>carolina.feital@trevocomunicativa.com.br</b></p> 
-                    </div>
+                <div className='box' id='boxContato'>
+                   <ul>
+                    <li><h2> SEMINÁRIO </h2></li>
+                        <li><ul>
+                            <li><h3> ORGANIZAÇÃO e CURADORIA </h3></li>
+                            <li> André Carvalho </li>
+                            <li> Jocelino Pessoa </li>
+                            <li> Marcelo Campos</li>
+                            <li> Tania Queiroz</li>
+                            <li> <br/> </li>
+                            <li><h3> DESIGN </h3></li>
+                            <li> Lygia Santiago </li>
+                            <li> <br/> </li>
+                            <li> <h3>COMUNICAÇÃO</h3></li>
+                            <li> Rubia Mazzini</li>
+                            <li> Roberta Campos</li>
+                            <li> <br/> </li>
+                            <li><h3> ASSESSORIA DE IMPRENSA</h3></li>
+                            <li> Rita Fernandes</li>
+                            <li> Márcio Martins</li>
+                            <li> <br/> </li>
+                            <li><h3> SITE</h3></li>
+                            <li> Hiago Patrick</li>
+                            <li> <br/> </li>
+                            <li> <h3>PRODUÇÃO AUDIOVISUAL e STREAMING</h3></li>
+                            <li> Luigi William </li>
+                            <li> Rafael Gusmão</li>
+                            <li> <br/> </li>
+                            <li> <h3>LIBRAS</h3></li>
+                            <li> Ivoneide Amaral</li>
+                            <li> Ivoleides Amaral</li>
+                            <li> Ivoneila Amaral</li>
+                            <li> <br/> </li>
+                        </ul></li>
+                    <li> <h2>PUBLICAÇÃO</h2></li>
+                    <li> <h3>ORGANIZAÇÃO</h3></li>
+                    <li> André Carvalho</li>
+                    <li> Jocelino Pessoa</li>
+                    <li> Marcelo Campos</li>
+                    <li> Tania Queiroz</li>
+                    <li> <br/> </li>
+                    <li> <h3>COORDENAÇÃO EDITORIAL</h3></li>
+                    <li> Rubia Mazzini</li>
+                    <li> <br/> </li>
+                    <li> <h3>DESIGN</h3></li>
+                    <li> Lygia Santiago</li>
+                    <li> <br/> </li>
+                    <li> <h3>REVISÃO DE TEXTO</h3></li>
+                    <li> Fred Girauta</li>
+                  </ul>
                 </div>
               
             </div>

@@ -33,6 +33,7 @@ body {
 .main {
     width: 100vw;
     height: auto;
+    min-height: 73vh;
     display: flex;
     flex-direction: column;  
     align-self: center;
@@ -42,6 +43,10 @@ body {
     background-color: var(--cor-principal);
 }
 
+#linkHome {
+    color: var(--cor-link);
+    text-decoration: none;
+}
 
 .boxBannerDesktop  {
     max-width: 3498px;
@@ -130,6 +135,10 @@ nav ul li a:hover {
     color: var(--cor-link);
 }
 
+nav #program {
+    text-align: center;
+}
+
 #disabled {
     cursor: default;
 }
@@ -199,12 +208,28 @@ nav ul li a:hover {
     margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
 } 
 
 #boxContato {
     margin-bottom: 80px;
+}
+
+#boxContato ul {
+    list-style: none;
+}
+
+#boxContato ul h2 {
+    font-family: 'Bonoci';
+    font-size: 1.5em;
+    color: var(--cor-link)
+}
+
+#boxContato ul h3 {
+    font-family: 'Bonoci';
+    font-size: 1.2em;
+    color: var(--cor-button)
 }
 
 .boxContatos span {
@@ -284,7 +309,8 @@ nav ul li a:hover {
 }
 
 #footerConvocatory {
-    width: 100vw;        
+    width: 100vw;
+    height: fit-content;
     background-color: white;
     position: fixed bottom;
     display: flex;
@@ -399,7 +425,6 @@ nav ul li a:hover {
 .boxItem .prof {
     font-size: 0.85rem;  
 }
-
 
 
 /* ---------------------------- FIM DA PAGINA PROGRAMAÇÃO -----------------------------------*/
@@ -568,7 +593,7 @@ nav ul li a:hover {
 
     nav ul li {
         width: auto;
-        height: 0.5rem;
+        height: 0.8rem;
         padding: 0;
         font-size: 1rem;
         display: flex;
@@ -655,10 +680,7 @@ nav ul li a:hover {
     
     /*   ------------ ~ sz ~ PROGRAMAÇÃO PAGE ~ sz ~ ------------   */
 
-    #program {
-        padding-top: 15px;
-    }
-
+    
     .separa {
         width: 95vw;
         height: 20px;
@@ -674,6 +696,12 @@ nav ul li a:hover {
     #profilePic {
         min-width: 150px;
         min-height: 150px;
+    }
+    
+    .boxItem iframe {
+        width: 90vw;
+        max-width: 410px;
+        height: auto;
     }
 
 
@@ -715,4 +743,20 @@ nav ul li a:hover {
     }
 
     /* ---------------------------- FIM DA PAGINA PALESTRANTES -----------------------------------*/
+    
+    
+    /* ----------------------------     PÁGINA     CONTATO     -----------------------------------*/ 
+
+    #boxContato ul h2 {
+        font-family: 'Bonoci';
+        font-size: 1.2em;
+        color: var(--cor-link)
+    }
+    
+    #boxContato ul h3 {
+        font-family: 'Bonoci';
+        font-size: 1em;
+        color: var(--cor-button)
+    }
+    
 }
