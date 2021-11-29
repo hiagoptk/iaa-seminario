@@ -49,7 +49,7 @@ const Home = () => {
                     <p>Assista aos vídeos <a id="linkHome" href="/programacao">aqui</a>.</p>
                   
                    <div className='boxImg'>
-                        <a target='_blank' href='https://www.even3.com.br/seminarioimersoes/' >
+                        <a target='_blank' href='https://drive.google.com/uc?export=download&id=1AlbDS-9_WaMx9R7KuO0ms_rU2dSgDBUJ' >
                             <HomeImg />
                         </a>
                     </div>
